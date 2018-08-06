@@ -1,6 +1,6 @@
 # Tesi
 Physics Degree Thesys Project on Shakura-Sunayev Accretion Disks model
-by Riccardo Aurelio Gilardo (ScimmiaSpaziale) from Università Statale di Milano-Bicocca
+by Riccardo Aurelio Gilardi (@ScimmiaSpaziale) from Università Statale di Milano-Bicocca
 
 The paper is written in italian.
 
