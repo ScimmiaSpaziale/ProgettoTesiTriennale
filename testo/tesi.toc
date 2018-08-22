@@ -1,3 +1,0 @@
-\select@language {italian}
-\select@language {italian}
-\contentsline {part}{I\hspace {1em}Introduzione}{3}
