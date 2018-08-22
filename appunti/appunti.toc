@@ -5,4 +5,4 @@
 \contentsline {section}{\numberline {3}Instabilit\IeC {\`a} nelle regioni A}{2}
 \contentsline {subsection}{\numberline {3.1}Analisi del problema}{2}
 \contentsline {subsection}{\numberline {3.2}Ipotesi della doppia temperatura (sfera calda)}{2}
-\contentsline {subsection}{\numberline {3.3}Risultati delle simulazioni}{2}
+\contentsline {subsection}{\numberline {3.3}Qualche risultato dalle simulazioni (?)}{2}
