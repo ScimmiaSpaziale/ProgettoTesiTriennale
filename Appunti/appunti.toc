@@ -1,8 +1,9 @@
-\contentsline {section}{\numberline {1}Accrescimento nei sistemi binari (introduzione)}{2}
-\contentsline {subsection}{\numberline {1.1}Momento angolare}{2}
-\contentsline {subsection}{\numberline {1.2}Modello $\alpha $-disco}{2}
-\contentsline {section}{\numberline {2}Struttura del disco secondo Shakura \& Sunyaev}{2}
-\contentsline {section}{\numberline {3}Instabilit\IeC {\`a} nelle regioni A}{2}
-\contentsline {subsection}{\numberline {3.1}Analisi del problema}{2}
-\contentsline {subsection}{\numberline {3.2}Ipotesi della doppia temperatura (sfera calda)}{2}
-\contentsline {subsection}{\numberline {3.3}Qualche risultato dalle simulazioni (?)}{2}
+\contentsline {section}{\numberline {1}Accrescimento nei sistemi binari (introduzione)}{3}
+\contentsline {subsection}{\numberline {1.1}Momento angolare}{3}
+\contentsline {subsection}{\numberline {1.2}Modello $\alpha $-disco}{3}
+\contentsline {section}{\numberline {2}Struttura del disco secondo Shakura \& Sunyaev}{3}
+\contentsline {section}{\numberline {3}Instabilit\IeC {\`a} nelle regioni A}{3}
+\contentsline {subsection}{\numberline {3.1}Analisi del problema}{3}
+\contentsline {subsection}{\numberline {3.2}Primi studi: Ipotesi della doppia temperatura (sfera calda)}{3}
+\contentsline {subsection}{\numberline {3.3}Ipotesi di altri autori (Da Pringle (1981))}{3}
+\contentsline {subsection}{\numberline {3.4}Magneto-stabilit\IeC {\`a} rotazionale}{3}
