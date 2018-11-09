@@ -1,13 +1,15 @@
 \documentclass[a4paper]{article}
 \usepackage[utf8]{inputenc}
-%\usepackage[italian]{babel}
+\usepackage[italian]{babel}
 \usepackage{titling}
 \usepackage{graphicx}
 \usepackage{wrapfig}
 \usepackage{float}
 \usepackage{amsmath}
 \usepackage{listings}
- \usepackage[table,xcdraw]{xcolor}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage[numbers]{natbib}
+\renewcommand{\bibfont}{\small}
 
 \newcommand{\subtitle}[1]{%
 	\posttitle{%
@@ -58,33 +60,55 @@
 		\emph{Dal Frank King Raine, parlo delle descrizioni moderne (cercare articoli recenti a riguardo?)}
 
 \newpage
+	
+\renewcommand{\bibpreamble}{Per regioni di coerenza interna al testo e di visione ordinata degli argomenti, ho cercato di affrontarli seguendo il più delle volte la traccia e le argomentazioni come sono presentatate sul testo di \textit{Frank, King e Raine}~\cite{FrankKingRaineAccretionPower}, manuale di riferimento per quanto riguarda le teorie dell'accrescimento.
+
+Sono stati fondamentali anche alcune  \textit{review} di \textit{King}~\cite{King2012} e \textit{Pringle}~\cite{Pringle1981}, che sintetizzano efficacemente l'argomento dell'accrescimento e permettono di avere una visione di insieme dei risultati ottenuti.
+
+E' stato fondamentale per la mia comprensione dello sviluppo delle teorie, l'analisi e la lettura degli articoli originali sui modelli di disco di accrescimento intorno ai corpi compatti.
+Ho lavorato quindi anche con gli articoli seminali di \textit{Pringle}, \textit{Reese}, \textit{Shakura}, \textit{Sunyaev} e \textit{Pacholczyk}~\cite{PringleReese1972}~\cite{PringleReesePacholczyk1973}~\cite{ShakuraSunyaev1973} e la splendida analisi del lavoro nella fondazione della teoria di accrescimento di Zeldovich svolta da Shakura quest'anno~\cite{ShakuraZeldovich2018}.
+
+Per quanto riguarda in particolare l'argomento della tesi, ovvero l'instabilità nelle regioni dominate dalla pressione radiativa nel modello del disco di accrescimento, ho fatto riferimento al primissimo lavoro a riguardo di \textit{Lightman} ed \textit{Eardley}~\cite{LightmanEardley1974} e ad articoli successivi che estendono, propongono alternative, ne analizzanoi risultati o li computano. Questi sono stati scritti da \textit{Shakura} e \textit{Sunyaev}~\cite{ShakuraSunyaev1976}, \textit{Shapiro} con gli stessi \textit{Lightman} ed \textit{Eardley}~\cite{ShapiroLightmanEardley1976}, \textit{Taam} e \textit{Lin}~\cite{TaamLin1984} e \textit{Teresi}, \textit{Molteni} e \textit{Toscano}~\cite{TeresiMolteniToscano2004}.
+
+Per tutti gli aspetti non strettamente legati all'accrescimento ho fatto riferimento a tre manuali: il \textit{Maoz}~\cite{MaozNutshell} e il \textit{Prialnik} ~\cite{PrialnikStellarStructureEvolution} per i cenni sulla struttura dei corpi compatti e il \textit{Ghisellini}~\cite{GhiselliniRadiativi} per quanto riguarda i processi radiativi.}
+
 \begin{thebibliography}{9}
 	\bibitem{FrankKingRaineAccretionPower} 
 	J. Frank, A. King, D. Raine
 	"Accretion Power in Astrophysics"\\
-	\textit{Cambridge University Press}, 2002 (III ed.)\\
-	
+	\textit{Cambridge University Press}, 2002 (III ed.)
+
 	\bibitem{King2012} 
 	A. King 
 	"Accretion Disc Theory since Shakura and Sunyaev"\\
 	\textit{arXiv}: 1201.2060v1\\
 	\textit{to appear in proceedings of 'The Golden Age of Cataclysmic Variables', Memorie Società Astronomica Italiana, 2012 (F. Giovannelli and L. Sabau-Graziati eds.)}
+			
+	\bibitem{GhiselliniRadiativi} 
+	G. Ghisellini
+	"Radiative Processes in High Energy Astrophysics"\\
+	\textit{Springer}, 2013
 
 	\bibitem{LightmanEardley1974} 
 	A. P. Lightman, D. M. Eardley 
 	"Black Holes in Binary Systems: Instability of Fisk Accretion"\\
 	\textit{Astrop. Journal} 187, L1-L3, 1974 January 1
-	
+		
 	\bibitem{MaozNutshell} 
-	D. Maoz 
+	D. Maoz
 	"Astrophysics in a nutshell"\\
-	\textit{Princeton University press}, 2007
+	\textit{Princeton University Press}, 2007
+		
+	\bibitem{PrialnikStellarStructureEvolution} 
+	D. Prialnik
+	"An Introduction to the Theory of Stellar Structure and Evolution"\\
+	\textit{Cambridge University Press}, 2000
 		
 	\bibitem{Pringle1981} 
 	J. E. Pringle 
 	"Accretion Discs in Astrophysics"\\
 	\textit{Ann. Rev. Astron. Astrphys.} 1981, 19:137-62
-		
+	
 	\bibitem{PringleReese1972} 
 	J. E. Pringle, M. J. Rees
 	"Accretion Discs Model for Compact X-Ray Sources"\\
@@ -110,7 +134,7 @@
 	"Ya. B. Zeldovich and foundation of the accretion theory"\\
 	\textit{arXiv}: 1809.1137v1
 
-	\bibitem{LightmanEardley1974} 
+	\bibitem{ShapiroLightmanEardley1976} 
 	S. L. Shapiro, A. P. Lightman, D. M. Eardley 
 	"A Two-Temperature Disk Model for Cygnus X-1 Structure and Spectrum"\\
 	\textit{Astrop. Journal} 187-199, 1976 February 15
