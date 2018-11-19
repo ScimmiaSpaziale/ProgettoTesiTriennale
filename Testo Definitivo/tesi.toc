@@ -1,3 +1,7 @@
-\select@language {italian}
-\select@language {italian}
-\contentsline {part}{I\hspace {1em}Introduzione}{3}
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {section}{\numberline {1}Introduzione (alla tesi)}{3}
+\contentsline {section}{\numberline {2}Accrescimento in sistemi binari}{3}
+\contentsline {section}{\numberline {3}Modello Stazionario di Dischi di Accrescimento}{3}
+\contentsline {section}{\numberline {4}Evoluzione temporale dei dischi e instabilit\IeC {\`a}}{3}
+\contentsline {subsection}{\numberline {4.1}Lightman \& Eardley}{3}
