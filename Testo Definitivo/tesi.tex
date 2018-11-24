@@ -22,7 +22,7 @@
 \begin{document}
 
 %opening
-\title{Studio sulla Stabilità dei Dischi di Accrescimento di Shakura \& Sunyaev}
+\title{Studio della Stabilità dei Dischi di Accrescimento di Shakura \& Sunyaev}
 \subtitle{Appunti}
 \author{Riccardo Aurelio Gilardi}
 \maketitle
@@ -44,18 +44,16 @@ Prima di parlare delle instabilità nei dischi, comincerò introducendo i concet
 
 \newpage
 \section{Accrescimento in sistemi binari}
-L'accrescimento è uno dei processi di conversione di massa in energia tra i più efficienti nell'universo, che si sviluppa in sistemi binari di cui almeno un membro è un corpo compatto: una nana bianca, una stella a neutroni o un buco nero.
+	L'accrescimento è uno dei processi di conversione di massa in energia tra i più efficienti nell'universo, che si sviluppa in sistemi binari di cui almeno un membro è un corpo compatto: una nana bianca, una stella a neutroni o un buco nero.
 
-Le cause scatenanti del trasporto di materiale tra due membri di un sistema binario possono essere un travalicamento da parte di uno dei membri del sistema del suo lobo di Roche o la cattura gravitazionale da parte del corpo compatto di venti stellari emessi dal suo compagno.
-
-Il primo di questi due processi è sicuramente meglio descritto e più semplice da trattare analiticamente e permette di dedurre delle informazioni interessanti sulla forma della viscosità, il meccanismo con cui viene trasportato momento angolare e che rende possibile l'accrescimento.
+	Tra le cause scatenanti del trasporto di materiale tra due membri di un sistema binario, sono particolarmente importanti il travalicamento da parte di uno dei membri del sistema del suo lobo di Roche o la cattura gravitazionale da parte del corpo compatto di venti stellari emessi dal suo compagno. Il primo di questi due processi è sicuramente meglio descritto e più semplice da trattare analiticamente e permette di dedurre delle informazioni interessanti sul processo dissipatovo che permette il trasporto del momento angolare. Una descrizione di questi processi permette di definire al meglio le ipotesi su cui si costruiscono i modelli di disco di accrescimento e permettono di fare osservazioni quantitative interessanti.
 
 \subsection{Deflusso attraverso i Lobi di Roche}
-	Edouard Roche ricavò la forma della struttura che prende il suo nome studiando l'orbita dei satelliti planetari. Lo fece descrivendo il moto di alcune particelle di test immerse in un potenziale gravitazionale generato da due corpi orbitanti intorno alla loro reciproca attrazione gravitazionale.
+	Edouard Roche ricavò la forma della struttura che ora prende il suo nome studiando l'orbita dei satelliti planetari. Lo fece descrivendo il moto di alcune particelle di test immerse in un potenziale gravitazionale generato da due corpi orbitanti intorno alla loro reciproca attrazione gravitazionale.
 	
 	La sua costruzione è essenziale e piuttosto elegante e si può ricavare partendo da poche semplici ipotesi, prima di calcolarne numericamente i parametri: la particella di test deve avere massa abbastanza piccola, al confronto con quella dei due corpi massicci, da non poterne influenzare in modo rilevante l'orbita; le orbite sono da considerarsi kepleriane e circolari, questo non è sempre vero in pratica, ma in generale le forze mareali tendono a rendere circolari orbite eccentriche in tempi scala molto minori di quelli caratteristici di un meccanismo di trasporto di materia; infine le masse sono da considerarsi condensate nel loro centro.
 	
-	Per descrivere qualsiasi flusso di gas tra i due corpi del sistema ha senso utilizzare l'\textit{equazione di Eulero} in un sistema di riferimento co-rotante col sistema binario, con velocità angolare $\omega$ rispetto al sistema inerziale. Questo comporta la presenza nell'equazione di termini che tengano conto delle forze centrifughe e di quelle di Coriolis ($-2\omega\times\textbf{v}$), così da ottenere:
+	Per descrivere qualsiasi flusso di gas tra i due corpi del sistema ha senso scrivere l'\textit{equazione di Eulero} in un sistema di riferimento co-rotante col sistema binario, con velocità angolare $\omega$ rispetto al sistema inerziale. Questo comporta la presenza nell'equazione di termini che tengano conto delle forze centrifughe e di quelle di Coriolis ($-2\omega\times\textbf{v}$), così che diventa:
 	\begin{equation}
 		\frac{\partial \textbf{v}}{\partial t}+(\textbf{v}\cdot\nabla)\textbf{v}=-\nabla\Phi_R-2\omega\times\textbf{v}-\frac{1}{\rho}\nabla P
 	\end{equation}
@@ -63,7 +61,7 @@ Il primo di questi due processi è sicuramente meglio descritto e più semplice 
 	\begin{equation}
 		\omega=\left[\frac{G(M_1+M_2)M_\odot}{a^3}\right]^{1/2}\textbf{e}
 	\end{equation}
-	e $\Phi_R$ il \textit{Potenziale di Roche}, che contiene i termini relativi all'attrazione gravitazionale e le forze centrifughe:
+	e $\Phi_R$ il \textit{Potenziale di Roche}, che contiene i termini relativi all'attrazione gravitazionale e le forze centrifughe (ma non quelli relativi a Coriolis):
 	\begin{equation}
 		\Phi_R(\textbf{r})=-\frac{GM_1M_\odot}{\vert\textbf{r}-\textbf{r}_1\vert}-\frac{GM_2M_\odot}{\vert\textbf{r}-\textbf{r}_2\vert}-\frac{1}{2}(\omega\times\textbf{r})^2
 	\end{equation}
@@ -71,11 +69,11 @@ Il primo di questi due processi è sicuramente meglio descritto e più semplice 
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.6\linewidth]{RocheEquipotential}
-		\caption{Una rappresentazione della sezione dei lobi e delle curve equipotenziali. $L_1$ è il punto lagrangiano interno}
+		\caption{Una rappresentazione della sezione dei lobi e delle curve equipotenziali di $\Phi_R$. $L_1$ è il punto lagrangiano interno}
 		\label{fig:rocheequipotential}
 	\end{figure}
 	
-	Le curve equipotenziali di $\Phi_R$ dipendono solo dal rapporto fra le masse $q=\frac{M_2}{M_1}$ e la loro scala dipende dalla distanza che le separa $a$. Per $q\sim1$ i lobi saranno simmetrici, mentre per rapporti $q<<1$ o $q>>1$ avranno volumi diversi.
+	Le curve equipotenziali di $\Phi_R$ dipendono solo dal rapporto fra le masse $q=\frac{M_2}{M_1}$ e la loro scala dipende dalla distanza che le separa, $a$. Per $q\sim1$ i lobi saranno simmetrici, mentre per rapporti $q<<1$ o $q>>1$ avranno volumi diversi.
 	
 	Per distanze sufficientemente alte, la forma delle curve equipotenziali corrisponde a quella di una singola massa $M=(M_1+M_2)M_\odot$, mentre a distanze brevi il potenziale è dominato da quello della stella più vicina. Le buche di potenziale centrate sulle posizioni dei due corpi $\textbf{r}_1$ e $\textbf{r}_2$, sono separate dalla cosiddetta \textit{superficie critica}.
 	
@@ -85,7 +83,7 @@ Il primo di questi due processi è sicuramente meglio descritto e più semplice 
 	
 	Si può dimostrare che, nell'ipotesi di accrescimento lento e totale $\dot{M}_1+\dot{M}_2=0$, il trasferimento di materia tra i due lobi si svolge nello stesso tempo scala con cui il momento angolare viene perso.
 	
-	Ipotizzando sia $M_2$ a cedere materia a $M_1$ e con $J$ momento angolare totale del sistema, abbiamo che:
+	Ipotizzando sia $M_2$, che chiameremo stella secondaria, a cedere materia a $M_1$, il nostro buco nero o primaria.Con $J$ momento angolare totale del sistema, abbiamo che:
 	
 	\begin{equation}
 		-\frac{\dot{M}_2}{M_2}=\frac{-\dot{J}/J}{4/3-M_2/M_1}
@@ -98,37 +96,114 @@ Il primo di questi due processi è sicuramente meglio descritto e più semplice 
 	\end{equation}
 	
 \subsection{Formazione di un disco}
-	Il trasporto di materia attraverso i lobi implica che il materiale trasportato sarà dotato di un momento angolare non indifferente, che non gli permetterebbe di essere accresciuto direttamente dall'altra stella.
+	Il trasporto di materia attraverso i lobi ne aumenta anche il momento angolare in quantità non indifferente, tanto da non permettere al materiale di essere accresciuto direttamente alla primaria, senza che qualche meccanismo gliene faccia trasportare la maggior parte.
 	
-	Se il periodo orbitale del sistema non è molto lungo, il lobo a cui viene accresciuta la materia, la vedrà provenire dal punto lagrangiano con velocità quasi completamente ortogonale alla linea dei centri che unisce le due masse. 
+	Se il periodo orbitale del sistema non è molto lungo, il lobo primario, ovvero quello a cui viene accresciuta la materia, la vedrà provenire dal punto lagrangiano con velocità quasi completamente ortogonale alla linea dei centri, che unisce le due masse. 
 	
-	Se definisco $b_1$ la distanza tra $M_1$ e $L_1$, posso approssimare il valore della componente istantaneamente ortogonale alla linea dei centri della velocità in un sistema di riferimento inerziale
+	Se definisco $b_1$ la distanza tra $M_1$ e $L_1$, posso approssimare il valore della componente istantaneamente ortogonale alla linea dei centri della velocità in un sistema di riferimento inerziale con
 	\begin{equation}
 		v_\perp\sim b_1\omega\sim 100\,M_1^{1/3}(1+q)^{1/3}P^{-1/3}_{day}\,km\,sec^{-1}
 	\end{equation}  
 	Mentre per la componente parallela, poiché immagino la forza che permette il passaggio tra i lobi della materia sia legata alla pressione, posso supporre valga
 	\begin{equation}
-		v_\parallel \lesssim c_{s_2}
+		v_\parallel \lesssim c_{s}
 	\end{equation}
-	con $c_{s_2}$ velocità del suono nel lobo secondario, da cui proviene la materia e poiché nel mezzo interstellare $T\lesssim10^5$ e per un gas vale $c_s\cong10(T/10^4\,K)^{1/2}km\,sec^{-1}$, deve essere $v_\parallel\lesssim10\,km\,sec^{-1}$
+	con $c_{s}$ velocità del suono nel lobo secondario, da cui proviene la materia. Poiché nel mezzo interstellare la temperatura ha valori $T\lesssim10^5\,K$ e poiché in generale per un gas vale $c_s\cong10(T/10^4\,K)^{1/2}km\,sec^{-1}$, deve essere $v_\parallel\lesssim10\,km\,sec^{-1}$
 	
-	Quindi in totale il moto del materiale in accrescimento a $M_1$ deve essere supersonico 
+	Quindi in totale il moto del gas in ingresso al lobo primario deve essere supersonico. Questa condizione viene poi rinforzata dall'accelerazione che il materiale in accrescimento subirà per l'azione del campo gravitazionale del buco nero.
+	
+	Si può dimostrare come le forze di pressione abbiano un effetto trascurabile sul materiale, che quindi si muoverà con orbita ballistica nel potenziale di Roche del corpo a cui sta accrescendo, come una particella di test. Inoltre il suo moto ellittico subirà una precessione dovuta all'effetto della presenza del corpo da cui proviene.
+	
+	\paragraph{Orbita del gas}
+	Poiché $v_\parallel\sim c_s$ è molto minore delle velocità di free-fall che le particelle acquisirebbero nell'avvicinamento a $M_1$, le condizioni iniziale all'attraversamento di $L_1$ hanno un effetto praticamente irrilevante sulla loro orbita, che sarà quindi essenzialmente unica per ogni particella. Queste orbite dovranno comunque intersecarsi fra loro per via della precessione a cui sono soggette. Per un flusso continuo di gas, questo comporta la dissipazione di energia termica tramite degli urti (\textit{shock}). 
+	
+	Attraversato $L_1$, il gas in accrescimento si troverebbe, senza un meccanismo di dissipazione, a seguire l'orbita a potenziale minore per un dato momento angolare ($R_{circ}v_\phi(R_{circ})=b_1^2\omega$), ovvero un'orbita circolare, ad un certo raggio $R_{circ}$ e con velocità circolare
+	\begin{equation}
+		v_\phi(R_{circ})=\left(\frac{GM_1M_\odot}{R_{circ}}\right)^{1/2}
+	\end{equation}
+	
+	E' possibile ricavare il valore del \textit{raggio di circolarizzazione} $R_{circ}$, utilizzando la formula del periodo della binaria $\omega=2\pi/P$ e si può ricavare tramite la computazione dei parametri dei lobi, come questo sia di un fattore $2\sim3$ più piccolo del raggio medio del lobo primario. Questo comporta che, a meno del caso in cui il raggio della primaria sia maggiore del raggio di circolarizzazione ($R_\star>R_{circ}$), la materia tenderebbe ad orbitare stabilmente nel lobo, una volta superata $L_1$. 
+	Non risulta interessante considerare l'eccezione sopracitata, poiché l'accrescimento è un processo tanto più efficente tanto più sono compatti gli oggetti intorno a cui avviene e se per una nana bianca realisticamente $R_{WD}\lesssim10^9\,cm$ normalmente ci si aspetta per il raggio di circularizzazione un valore $R_{circ}\gtrsim3.5\times10^9P_{hr}^{2/3}\,cm$.
 
-\subsection{Viscosità}
+	Un anello di materia dovrà necessariamente subire dei processi dissipativi, come degli urti, che convertiranno necessariamente parte dell'energia del moto orbitale in energia interna, ovvero calore. Parte di questa energia sarà irradiato e quindi perso dal gas, costringendo il gas ad avvicinarsi alla primaria. Per farlo dovrà quindi trasportare parte del suo momento angolare verso l'esterno. Il tempo di redistribuzione del momento angolare è maggiore sia dei tempi scala di raffreddamento radiativo $t_{rad}$ che di quello orbitale (dinamico) $t_{din}$. 
+	
+	Quindi parte del gas che orbitava sul raggio di circularizzazione, perdendo energia e trasportando momento angolare, spiraleggerà lentamente verso la primaria, costretto in una serie di orbite approssimamente circolari, nella configurazione cosiddetta di \textbf{disco di accrescimento}. 
+	
+	In assenza di torsioni esterne, mi aspetto che per coservazione del momento angolare totale, le parti esterne del disco a cui viene trasferito momento debbano spiraleggiare verso l'esterno a raggi maggiori di quelli di circularizzazione, fino a a una distanza tale per cui qualche meccanismo non gli impedisca di allontanarsi oltre.
+		
+\subsection{Processi Dissipativi}
+	Per un elemento di gas di massa $m$, che stia raggiungendo l'ultima orbita stabile (Innermost Stable Circular Orbit) intorno al buco nero, l'energia di legame varrà $E=\frac{1}{2}\frac{GMm}{R_\star}$. Considerando il valore di questa energia come trascurabile alla distanza da cui provengono, posso dire che la luminosità totale del disco dovrà valere
+	
+	\begin{equation}
+		L_{disc}=\frac{GM\dot{M}}{2R_\star}=\frac{1}{2}L_{acc}
+	\end{equation}
+
+	Questo comporta che se metà dell'energia viene irradiata dalla materia che si muove verso l'ISCO, l'altra metà dovrà essere irradiata tutta nelle regioni più interne. Inoltre se considero che il momento angolare per raggio vale $R^2\Omega(R)\alpha R^{1/2}$ e che $R_{ISCO}<<R_{circ}$, il gas che forma il disco dovrà perdere quasi completamente il suo momento nella discesa verso la primaria.
+	
+	Nel contesto dei dischi di accrescimento, strutture gassose con una rotazione differenziale rispetto al raggio di particelle con velocità circa ortogonale alla direzione radiale, posso supporre che il meccanismo di trasporto del momento angolare e di dissipazione dell'energia in calore sia legato alla \textit{tensione viscosa di taglio} che si esercita fra strati diversi del disco.
+	
+	Si può capire come avvenga il trasporto di momento angolare per dissipazione viscosa considerando per esempio due strati successivi del disco di uno spessore arbitrariamente piccolo $\lambda$, separate da una superficie a che si trova a distanza $R$ dal centro del buco nero. Elementi del fluido che forma il disco, muovendosi caoticamente, potranno continuamente venire scambiati tra i due strati con velocità $\tilde{v}$. Questi elementi percorreranno in media una distanza $\lambda$ prima di interagire con elementi dello strato che hanno raggiunto e poiché la loro velocità dipendeva dal raggio a cui sono partiti, dopo una serie di scambi, ci sarà un \textit{trasporto netto di momento angolare} tra i due strati. Questo senza un trasporto netto di materia, per simmetria.
+	
+	\paragraph{Forma della viscosità}	
+	Al momento non siamo ancora in grado di dare prescrizioni fisiche per la stima dei valori di $\lambda$ e $\tilde{v}$, così strettamente legati al significato fisico della dissipazione viscosa che agisce nel disco. 
+	Si dimostra per esempio che la densità di forza viscosa di taglio vale
+	\begin{equation}
+		f_{visc,taglio}\sim\rho\lambda\tilde{v}\frac{\partial^2v_\phi}{\partial R^2}\sim\rho\lambda\tilde{v}\frac{v_\phi}{R^2}
+	\end{equation}
+	Che ci permette di ricavare un valore per il \textit{termine di Reynolds}, che stima l'importanza dinamica del termine viscoso rispetto a quello inerziale (ovvero $\rho(\partial\textbf{v}/\partial t+(\textbf{v}\cdot\nabla)\textbf{v})$, estratto dall'equazione di Eulero)
+	\begin{equation}
+		Re\sim\frac{v_\phi^2/R}{\lambda\tilde{v}v_\phi/R^2}=\frac{Rv_\phi}{\lambda\tilde{v}}
+	\end{equation}
+	Quindi possiamo dimostrare che la viscosità che permette l'accrescimento non è semplicemente quella classicamente legata ad un gas, per cui sarebbero $\lambda\sim\lambda_d$ \textit{tempo di deflessione} delle particelle del gas e $\tilde{v}\sim c_s$ velocità del suono, poiché in questo caso, utilizzando risultati della fluidodinamica, troviamo che $Re_{mol}>10^4$ in regioni interne a un tipico disco di accrescimento. Questo valore iplicherebbe una irrilevanza estrema del termine viscoso rispetto a quello inerziale nel disco, dimostrando che la "viscosità molecolare" non può essere responsabile del trasporto.
+	
+	Poiché si è dimostrata sperimentalmente l'esistenza di un \textit{numero di Reynold critico} oltre cui il moto del gas diventa turbolento, con grandi variazioni di velocità in grande e piccola scala, si potrebbe supporre che anche nei dischi di accrescimento il moto sia turbolento, anche se non è stato dimostrato.
+	La viscosità in questo tipo di sistema dipenderebbe da una lunghezza caratteristica delle turbolenze, che ci aspettiamo non poter superare l'altezza del disco $\lambda_{turb}\lesssim H$ e da una velocità massima per le turbolenze che ci aspettiamo non essere supersonica $v_{turb}\lesssim c_s$, tali per cui $\nu_{turb}\sim \lambda_{turb}v_{turb}$.
+	Poiché non siamo ancora in grado di descrivere matematicamente un moto turbolento, né capiamo appieno i meccanismi fisici che ne regolerebbero l'intesità, si è dimostrato utile parametrizzare la viscosità con
+	\begin{equation}
+		\nu=\alpha c_s H
+	\end{equation}
+	Questa è la cosiddetta \textit{condizione $\alpha$ di Shakura e Sunyaev}, con $\alpha\lesssim 1$.
+
+	\paragraph{Momento torcente ed energia dissipata}
+	Una frazione di fluido dallo strato più interno trasporterà in media un momento $L(R+\lambda/2)$, mentre una dallo strato più esterno trasporterà in media $L(R-\lambda/2)$. Questo trasporto netto si traduce in una \textit{torsione del disco interno su quello esterno}.
+	
+	Se i due strati hanno densità $\rho(R)$ e altezza $H(R)$, ci sarà un trasporto di materia netto nell'ordine di $H\rho\tilde{v}$, per un osservatore co-rotante con il fluido che si trovi sulla superficie di separazione, il \textit{momento torcente medio} che si esercitano reciprocamente, per unità di angolo e al primo ordine in $\lambda$
+	\begin{equation*}
+		-\rho\tilde{v} H\lambda R^2\frac{d\Omega}{dr}
+	\end{equation*}
+	E per il nostro sistema di dischi concentrici, definendo la \textit{densità superficiale} $\Sigma=H\rho$ e il \textit{coefficente di viscosità cinematica} $\nu\sim\lambda\tilde{v}$, possiamo scrivere il \textit{momento torcente} esercitato dal disco esterno su quello interno come
+	\begin{equation}
+		G(R)=2\pi R\nu\Sigma R^2\frac{d\Omega}{dr}
+	\end{equation}
+	Si può apprezzare l'efficacia di questa formula nel descrivere l'accrescimento notando come si annulla nel caso di una rotazione rigida $\Omega'=\frac{d\Omega}{dr}=0$ ed è negativa nel caso in cui la velocità angolare decresca allontanandosi dal centro del disco, comportando quindi il trasporto del momento angolare dagli strati più interni verso quelli più esterni, con il conseguente spiraleggiare verso l'interno del gas.
+	
+	Sempre con l'analogia dell'attrito viscoso fra gli strati del disco, si può ricavare una formula per la \textit{frazione di energia dissipata} per unità di area:
+	\begin{equation}
+		D(R)=\frac{G\Sigma'}{4\pi R}=\frac{1}{2}\nu\Sigma(R\Omega')^2
+	\end{equation}
+	Funzione sempre positiva o nulla, nel caso della rotazione rigida.
+	
+	La formula di $D(R)$ si ricava considerando i due momenti torcenti che agiscono ai due lati di un anello di gas che si estende tra $R$ e $R+dR$, tali per cui, se vengono divisi per la velocità angolare
+	\begin{equation}
+		\frac{1}{\Omega}(G(R+dR)-G(R))=\frac{1}{\Omega}\frac{\partial G}{\partial R}dR=\frac{1}{\Omega}\left[\frac{\partial}{\partial R}(G\Omega)-G\Omega'\right]dR
+	\end{equation}
+	Quest'equazione è formata da due termini, primo dei quali è $\frac{\partial}{\partial R}(G\Omega)dR$, che rappresenta il tasso di "spostamento" dell'energia nel gas per mezzo dei momenti torcenti e se integrato per tutti i raggi ha un valore che dipende solo dalle condizioni agli estremi del disco. Il secondo termine è $-G\Omega'dR$ e rappresenta un tasso di perdita locale di energia meccanica nel gas, che sarà quindi dissipata sotto forma di calore.
+	
+	La formula di $D(R)$ si ricava considerando che il calore sarà irradiato su entrambe le facce del disco, con superficie $4\pi RdR$.
 
 \newpage
-\section{Modello Stazionario di Dischi di Accrescimento}
+\section{Modello Stazionario di Disco} 	
 \subsection{Il modello di Shakura e Sunyaev}
 \begin{equation}
 	\nu=\alpha c_sH
 \end{equation}
 \begin{equation}
 	\begin{cases}
-		\Sigma=5.2\alpha^{-4/5}\dot{M}_{16}^{3/20}M^{1/4}_1R_{10}^{-3/4}f^{14/5}\,g\,cm^{-2}\\
+		\Sigma=5.2\,\alpha^{-4/5}\dot{M}_{16}^{3/20}M^{1/4}_1R_{10}^{-3/4}f^{14/5}\,g\,cm^{-2}\\
 		H=1.7\times10^8\alpha^{-1/10}\dot{M}^{3/20}_{16}M^{-3/8}_1R_{10}^{9/8}f^{3/5}\,cm\\
 		\rho=3.1\times10^{-8}\alpha^{-7/10}\dot{M}^{11/20}_{16}M^{5/8}_1R_{10}^{-15/8}f^{11/5}\,g\,cm^{-3}\\
 		T_c=1.4\times10^{4}\alpha^{-1/5}\dot{M}^{3/10}_{16}M^{1/4}_1R_{10}^{-3/4}f^{6/5}\,K\\
-		\tau=33\alpha^{-4/5}\dot{M}^{1/5}_{16}f^{4/5}\\
+		\tau=33\,\alpha^{-4/5}\dot{M}^{1/5}_{16}f^{4/5}\\
 		\nu=1.8\times10^{14}\alpha^{4/5}\dot{M}^{3/10}_{16}M^{-1/4}_1R_{10}^{3/4}f^{6/5}\,g\,sec^{-1}\\
 		\nu_R=2.7\times10^{14}\alpha^{4/5}\dot{M}^{3/10}_{16}M^{-1/4}_1R_{10}^{-1/4}f^{-14/5}\,cm\,sec^{-1}\\
 	\end{cases}
