@@ -1,12 +1,19 @@
 \babel@toc {italian}{}
 \babel@toc {italian}{}
-\contentsline {section}{\numberline {1}Accrescimento nei sistemi binari}{3}
-\contentsline {subsection}{\numberline {1.1}Momento angolare}{3}
-\contentsline {section}{\numberline {2}Dischi di accrescimento}{3}
-\contentsline {subsection}{\numberline {2.1}Modello stazionario}{3}
-\contentsline {subsection}{\numberline {2.2}Modello di Shakura \& Sunyaev}{3}
-\contentsline {subsection}{\numberline {2.3}Evoluzione temporale}{3}
-\contentsline {section}{\numberline {3}Instabilit\IeC {\`a} nelle regioni A}{3}
-\contentsline {subsection}{\numberline {3.1}Analisi del problema}{3}
-\contentsline {subsection}{\numberline {3.2}Primi studi: Ipotesi della doppia temperatura (sfera calda)}{3}
-\contentsline {subsection}{\numberline {3.3}Ipotesi di altri autori (Da Pringle (1981))}{3}
+\contentsline {section}{\numberline {1}Introduzione}{3}
+\contentsline {section}{\numberline {2}Accrescimento in sistemi binari}{4}
+\contentsline {subsection}{\numberline {2.1}Deflusso attraverso i Lobi di Roche}{4}
+\contentsline {subsection}{\numberline {2.2}Formazione di un disco}{6}
+\contentsline {paragraph}{Orbita del gas}{6}
+\contentsline {subsection}{\numberline {2.3}Processi Dissipativi}{8}
+\contentsline {paragraph}{Forma della viscosit\IeC {\`a}}{8}
+\contentsline {paragraph}{Momento torcente, densit\IeC {\`a} superficiale ed energia dissipata}{9}
+\contentsline {section}{\numberline {3}Modello Stazionario di Disco}{12}
+\contentsline {subsection}{\numberline {3.1}Spettro di emissione}{12}
+\contentsline {subsection}{\numberline {3.2}Shakura e Sunyaev}{12}
+\contentsline {section}{\numberline {4}Evoluzione temporale dei dischi e instabilit\IeC {\`a}}{13}
+\contentsline {subsection}{\numberline {4.1}La derivazione di Lightman e Eardley}{13}
+\contentsline {subsection}{\numberline {4.2}Instabilit\IeC {\`a} termica e viscosa}{13}
+\contentsline {subsection}{\numberline {4.3}Considerazioni sull'espressione della viscosit\IeC {\`a}}{13}
+\contentsline {subsection}{\numberline {4.4}Spettro di emissione}{13}
+\contentsline {section}{\numberline {5}Conclusioni}{14}
