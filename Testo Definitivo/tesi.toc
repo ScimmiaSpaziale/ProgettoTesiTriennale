@@ -1,24 +1,26 @@
 \babel@toc {italian}{}
 \babel@toc {italian}{}
-\contentsline {section}{\numberline {1}Introduzione}{3}
-\contentsline {section}{\numberline {2}Accrescimento in sistemi binari}{4}
-\contentsline {subsection}{\numberline {2.1}Deflusso attraverso i Lobi di Roche}{4}
-\contentsline {subsection}{\numberline {2.2}Formazione di un disco}{6}
-\contentsline {paragraph}{Orbita del gas}{7}
-\contentsline {subsection}{\numberline {2.3}Processi Dissipativi}{8}
-\contentsline {paragraph}{Forma della viscosit\IeC {\`a}}{9}
-\contentsline {paragraph}{Momento torcente ed energia dissipata}{9}
-\contentsline {section}{\numberline {3}Modello di Struttura del Disco}{11}
-\contentsline {paragraph}{Conservazione della massa e Densit\IeC {\`a} superficiale}{11}
-\contentsline {subsection}{\numberline {3.1}Stazionariet\IeC {\`a}}{13}
-\contentsline {paragraph}{Dissipazione di energia}{15}
-\contentsline {paragraph}{Struttura verticale del disco}{15}
-\contentsline {paragraph}{Temperatura e Pressione}{16}
-\contentsline {subsection}{\numberline {3.2}La soluzione di Shakura e Sunyaev}{18}
-\contentsline {paragraph}{Regioni dominate da pressione di radiazione}{19}
-\contentsline {subsection}{\numberline {3.3}Spettro di emissione}{22}
-\contentsline {section}{\numberline {4}Evoluzione temporale dei dischi e instabilit\IeC {\`a}}{25}
-\contentsline {subsection}{\numberline {4.1}Instabilit\IeC {\`a} termica e viscosa}{25}
-\contentsline {subsection}{\numberline {4.2}Considerazioni sull'espressione della viscosit\IeC {\`a}}{25}
-\contentsline {subsection}{\numberline {4.3}Spettro di emissione}{25}
-\contentsline {section}{\numberline {5}Conclusione}{26}
+\contentsline {section}{\numberline {1}Introduzione}{4}
+\contentsline {section}{\numberline {2}Accrescimento in sistemi binari}{5}
+\contentsline {subsection}{\numberline {2.1}Deflusso attraverso i Lobi di Roche}{5}
+\contentsline {subsection}{\numberline {2.2}Formazione di un disco}{7}
+\contentsline {paragraph}{Orbita del gas}{8}
+\contentsline {subsection}{\numberline {2.3}Processi Dissipativi}{9}
+\contentsline {paragraph}{Forma funzionale della viscosit\IeC {\`a}}{10}
+\contentsline {paragraph}{Momento torcente ed energia dissipata}{11}
+\contentsline {section}{\numberline {3}Modello di Struttura del Disco}{13}
+\contentsline {paragraph}{Conservazione della massa e Densit\IeC {\`a} superficiale}{13}
+\contentsline {subsection}{\numberline {3.1}Modello di disco stazionario}{15}
+\contentsline {paragraph}{Condizioni sul tasso di accrescimento}{16}
+\contentsline {paragraph}{Dissipazione di energia}{17}
+\contentsline {paragraph}{Struttura verticale del disco}{17}
+\contentsline {paragraph}{Temperatura e Pressione}{18}
+\contentsline {subsection}{\numberline {3.2}La soluzione di Shakura e Sunyaev}{20}
+\contentsline {paragraph}{Regioni dominate da pressione di radiazione}{22}
+\contentsline {subsection}{\numberline {3.3}Spettro di emissione}{24}
+\contentsline {section}{\numberline {4}Evoluzione temporale dei dischi e instabilit\IeC {\`a}}{27}
+\contentsline {paragraph}{Tempi scala del disco}{27}
+\contentsline {subsection}{\numberline {4.1}Instabilit\IeC {\`a} termica e viscosa}{28}
+\contentsline {subsection}{\numberline {4.2}Considerazioni sull'espressione della viscosit\IeC {\`a}}{28}
+\contentsline {subsection}{\numberline {4.3}Spettro di emissione}{28}
+\contentsline {section}{\numberline {5}Conclusione}{29}
