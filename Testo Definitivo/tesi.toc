@@ -13,14 +13,22 @@
 \contentsline {subsection}{\numberline {3.1}Modello di disco stazionario}{15}
 \contentsline {paragraph}{Condizioni sul tasso di accrescimento}{16}
 \contentsline {paragraph}{Dissipazione di energia}{17}
-\contentsline {paragraph}{Struttura verticale del disco}{17}
+\contentsline {paragraph}{Struttura verticale del disco}{18}
 \contentsline {paragraph}{Temperatura e Pressione}{18}
 \contentsline {subsection}{\numberline {3.2}La soluzione di Shakura e Sunyaev}{20}
 \contentsline {paragraph}{Regioni dominate da pressione di radiazione}{22}
 \contentsline {subsection}{\numberline {3.3}Spettro di emissione}{24}
 \contentsline {section}{\numberline {4}Evoluzione temporale dei dischi e instabilit\IeC {\`a}}{27}
 \contentsline {paragraph}{Tempi scala del disco}{27}
-\contentsline {subsection}{\numberline {4.1}Instabilit\IeC {\`a} termica e viscosa}{28}
-\contentsline {subsection}{\numberline {4.2}Considerazioni sull'espressione della viscosit\IeC {\`a}}{28}
-\contentsline {subsection}{\numberline {4.3}Spettro di emissione}{28}
-\contentsline {section}{\numberline {5}Conclusione}{29}
+\contentsline {subsection}{\numberline {4.1}Instabilit\IeC {\`a} termica}{28}
+\contentsline {paragraph}{regioni otticamente sottili}{29}
+\contentsline {paragraph}{regioni otticamente spesse}{30}
+\contentsline {subsection}{\numberline {4.2}Instabilit\IeC {\`a} viscosa}{30}
+\contentsline {paragraph}{Evoluzione temporale del disco stazionario}{30}
+\contentsline {paragraph}{Instabilit\IeC {\`a} viscosa}{31}
+\contentsline {paragraph}{Significato fisico della condizione di instabilit\IeC {\`a} viscosa}{32}
+\contentsline {section}{\numberline {5}Evidenze dell'instabilit\IeC {\`a} del modello di Shakura e Sunyaev}{34}
+\contentsline {subsection}{\numberline {5.1}Instabilit\IeC {\`a} e collasso del disco nelle regioni dominate da pressione di radiazione}{34}
+\contentsline {paragraph}{I primi lavori a riguardo}{35}
+\contentsline {subsection}{\numberline {5.2}Spettro nella banda dei raggi X e modello a due temperature}{36}
+\contentsline {section}{\numberline {6}Conclusione}{37}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  9 DEC 2018 19:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  19 DEC 2018 11:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -975,78 +975,105 @@ File: RocheEquipotential.png Graphic file (type png)
 <use RocheEquipotential.png>
 Package pdftex.def Info: RocheEquipotential.png  used on input line 131.
 (pdftex.def)             Requested size: 207.0021pt x 206.98004pt.
- [6 <./RocheEquipotential.png>] [7] [8] [9] [10] [11] [12] [13]
-<DensSuper.png, id=76, 695.59875pt x 421.575pt>
+ [6 <./RocheEquipotential.png>] [7] [8] [9]
+<LuminositaRaggio.png, id=62, 549.05125pt x 427.5975pt>
+File: LuminositaRaggio.png Graphic file (type png)
+<use LuminositaRaggio.png>
+Package pdftex.def Info: LuminositaRaggio.png  used on input line 211.
+(pdftex.def)             Requested size: 276.00105pt x 214.95308pt.
+ [10 <./LuminositaRaggio.png>] [11] [12] [13]
+<DensSuper.png, id=77, 695.59875pt x 421.575pt>
 File: DensSuper.png Graphic file (type png)
 <use DensSuper.png>
-Package pdftex.def Info: DensSuper.png  used on input line 320.
+Package pdftex.def Info: DensSuper.png  used on input line 347.
 (pdftex.def)             Requested size: 241.49895pt x 146.3634pt.
-
-[14] [15 <./DensSuper.png>]
-<InnerRegionAngularVelocity.png, id=83, 456.70625pt x 408.52625pt>
+ [14] [15 <./DensSuper.png>]
+<InnerRegionAngularVelocity.png, id=84, 456.70625pt x 408.52625pt>
 File: InnerRegionAngularVelocity.png Graphic file (type png)
 <use InnerRegionAngularVelocity.png>
-Package pdftex.def Info: InnerRegionAngularVelocity.png  used on input line 393
+Package pdftex.def Info: InnerRegionAngularVelocity.png  used on input line 423
 .
 (pdftex.def)             Requested size: 241.49895pt x 216.0192pt.
  [16]
-Overfull \hbox (0.2927pt too wide) in paragraph at lines 414--415
+Overfull \hbox (0.2927pt too wide) in paragraph at lines 446--447
  \OT1/cmr/bx/n/10 Strut-tu-ra ver-ti-ca-le del di-sco[] \OT1/cmr/m/n/10 In coor
 -di-na-te ci-lin-dri-che, poich^^Se non mi aspet-
  []
 
 [17 <./InnerRegionAngularVelocity.png>] [18] [19] [20] [21]
-<MappaPressione.png, id=106, 747.79375pt x 598.235pt>
+<MappaPressione.png, id=107, 747.79375pt x 598.235pt>
 File: MappaPressione.png Graphic file (type png)
 <use MappaPressione.png>
-Package pdftex.def Info: MappaPressione.png  used on input line 578.
+Package pdftex.def Info: MappaPressione.png  used on input line 614.
 (pdftex.def)             Requested size: 345.0pt x 276.00386pt.
  [22] [23 <./MappaPressione.png>] [24]
-<SpettroDiscoGhisellini.png, id=117, 656.4525pt x 531.9875pt>
+<SpettroDiscoGhisellini.png, id=118, 656.4525pt x 531.9875pt>
 File: SpettroDiscoGhisellini.png Graphic file (type png)
 <use SpettroDiscoGhisellini.png>
-Package pdftex.def Info: SpettroDiscoGhisellini.png  used on input line 644.
+Package pdftex.def Info: SpettroDiscoGhisellini.png  used on input line 688.
 (pdftex.def)             Requested size: 241.49895pt x 195.71208pt.
  [25 <./SpettroDiscoGhisellini.png>] [26] [27] [28] [29]
-[30] [31] (./tesi.aux) ) 
+[30] [31] [32]
+<TemperaturaDensita.png, id=144, 228.855pt x 190.7125pt>
+File: TemperaturaDensita.png Graphic file (type png)
+<use TemperaturaDensita.png>
+Package pdftex.def Info: TemperaturaDensita.png  used on input line 904.
+(pdftex.def)             Requested size: 137.9979pt x 115.00165pt.
+ [33 <./TemperaturaDensita.png>]
+<RegioniDisco.png, id=148, 584.1825pt x 213.79875pt>
+File: RegioniDisco.png Graphic file (type png)
+<use RegioniDisco.png>
+Package pdftex.def Info: RegioniDisco.png  used on input line 924.
+(pdftex.def)             Requested size: 310.4979pt x 113.63902pt.
+ [34 <./RegioniDisco.png>]
+[35] [36] [37]
+
+Package natbib Warning: Citation `PringleReesePacholczyk1973' on page 38 undefi
+ned on input line 982.
+
+[38]
+
+Package natbib Warning: There were undefined citations.
+
+[39] (./tesi.aux) ) 
 Here is how much of TeX's memory you used:
- 15971 strings out of 492982
- 293920 string characters out of 6134895
- 350071 words of memory out of 5000000
- 19190 multiletter control sequences out of 15000+600000
+ 15993 strings out of 492982
+ 294452 string characters out of 6134895
+ 350114 words of memory out of 5000000
+ 19209 multiletter control sequences out of 15000+600000
  14773 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,14n,56p,1047b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msa
-m10.pfb>
-Output written on tesi.pdf (32 pages, 703767 bytes).
+ 62i,14n,56p,1076b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.p
+fb>
+Output written on tesi.pdf (40 pages, 792419 bytes).
 PDF statistics:
- 227 PDF objects out of 1000 (max. 8388607)
- 157 compressed objects within 2 object streams
+ 257 PDF objects out of 1000 (max. 8388607)
+ 176 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
