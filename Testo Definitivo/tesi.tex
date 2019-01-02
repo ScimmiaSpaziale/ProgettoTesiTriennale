@@ -214,7 +214,7 @@ Prof. Massimo \textsc{Dotti} % Supervisor's Name
 	\end{figure}
 
 	\paragraph{Forma funzionale della viscosità}	
-	Al momento non siamo ancora in grado di dare prescrizioni fisiche per la stima dei valori di $\lambda$ e $\tilde{v}$, così strettamente legati al significato fisico della dissipazione viscosa che agisce nel disco. Risultati moderni collegano la viscosità a processi magnetici, come ipotizzato da Shakura e Sunyaev nel 1973 e suggerito da Balbus e Hawley nel 1991, ma non esiste ancora una risposta certa o esaustiva a riguardo. 
+	Al momento non siamo ancora in grado di dare prescrizioni fisiche per la stima dei valori di $\lambda$ e $\tilde{v}$, così strettamente legati al significato fisico della dissipazione viscosa che agisce nel disco. Risultati moderni collegano la viscosità a processi magnetici, come suggerito per primi da Shakura e Sunyaev nel 1973 e sviluppato da Balbus e Hawley nel 1991, ma non esiste ancora una risposta certa o esaustiva a riguardo. 
 	
 	Si dimostra che in generale la densità di forza viscosa di taglio vale
 	\begin{equation}
@@ -230,14 +230,14 @@ Prof. Massimo \textsc{Dotti} % Supervisor's Name
 	
 	Poiché si è dimostrata sperimentalmente l'esistenza di un \textit{numero di Reynold critico} oltre cui il moto del gas diventa turbolento, con grandi variazioni di velocità in grande e piccola scala\footnote{In particolare Lynden-Bell e Pringle hanno stimato nel loro articolo del 1974 $Re_{crit}\sim 10^3$, basandosi su esperienze in laboratorio}, si potrebbe supporre che anche nei dischi di accrescimento il processo principale di redistribuzione del momento angolare sia un moto turbolento, anche se non è stato dimostrato.
 	La viscosità in questo tipo di sistema dinamico dipenderebbe da una lunghezza caratteristica dei vortici più grandi, che ci aspettiamo non poter superare l'altezza del disco $\lambda_{turb}\lesssim H$ e da una velocità degli stessi vortici che ci aspettiamo essere subsonica $v_{turb}\lesssim c_s$, tali per cui $\nu_{turb}\sim \lambda_{turb}v_{turb}$.
-	Poiché non siamo ancora in grado di descrivere matematicamente un moto turbolento, né capiamo appieno i meccanismi fisici che ne regolerebbero l'intesità\footnote{Sono molti gli esempi nella letteratura sui dischi di accrescimento che mostrano come l'ipotesi del moto turbolento sia stata abbandonata con gli anni, spostando l'attenzione sulla possibilità che siano i campi magnetici a generare la viscosità. Questo comunque attraverso il vaglio di numerose e diverse ipotesi negli anni, di cui non ho parlato per brevità.}, si è dimostrato utile, in un approccio semi-empirico all'analisi dei dischi, parametrizzare la \textit{viscosità dinamica} con
+	Poiché non siamo ancora in grado di descrivere matematicamente un moto turbolento, né capiamo appieno i meccanismi fisici che ne regolerebbero l'intesità\footnote{Sono molti gli esempi nella letteratura sui dischi di accrescimento che spiegano come l'ipotesi del moto turbolento sia stata approfondita per capirne le possibili cause, spostando l'attenzione sulla possibilità che siano i campi magnetici a generarlo. Questo comunque attraverso il vaglio di numerose e diverse ipotesi negli anni, di cui non ho parlato per brevità.}, si è dimostrato utile, in un approccio semi-empirico all'analisi dei dischi, parametrizzare la \textit{viscosità dinamica} con
 	\begin{equation}
 		\nu=\alpha c_s H
 	\end{equation}
 	
 	Questa è la cosiddetta \textit{condizione $\alpha$ di Shakura e Sunyaev}, con $\alpha\lesssim 1$ adimensionale: una parametrizzazione utile per la costruzione di un modello di disco, che riesce a sintetizzare la nostra ignoranza sulla natura della viscosità, ma non ci permette di avere un modello deterministico di disco.
 	
-	\paragraph{Momento torcente ed energia dissipata}
+	\paragraph{Momento torcente}
 	Una frazione di fluido dallo strato più interno trasporterà in media un momento $L(R+\lambda/2)$, mentre una dallo strato più esterno trasporterà in media $L(R-\lambda/2)$. Questo trasporto netto si traduce in una \textit{torsione del disco interno su quello esterno}.
 	
 	Se i due strati hanno densità $\rho(R)$ e altezza $H(R)$, ci sarà un trasporto di materia netto nell'ordine di $H\rho\tilde{v}$ e per un osservatore co-rotante con il fluido che si trovi sulla superficie di separazione il \textit{momento torcente medio} che si esercitano reciprocamente per unità di angolo e al primo ordine in $\lambda$ varrebbe:
@@ -251,12 +251,8 @@ Prof. Massimo \textsc{Dotti} % Supervisor's Name
 	\end{equation}
 	
 	Si può apprezzare l'efficacia di questa formula nel descrivere l'accrescimento notando come si annulla nel caso di una rotazione rigida $\Omega'=\frac{d\Omega}{dr}=0$ ed è negativa nel caso in cui la velocità angolare decresca allontanandosi dal centro del disco, comportando quindi il trasporto del momento angolare dagli strati più interni verso quelli più esterni, con il conseguente spiraleggiare verso l'interno del gas.
-
-	Anche se non siamo ancora sicuri di come sia generata la turbolenza che permette il trasporto di momento angolare, con l'ipotesi di Shakura e Sunyaev è possibile osservare come il momento torcente a cui è soggetta la materia nel disco sia proporzionale alla pressione totale che subisce e all'altezza del disco ad un certo raggio\footnote{In particolare usando le equazioni della struttura del disco secondo SeS si trova $G(R)=3\pi\alpha PH$}
-	\begin{equation}
-		G(R)\sim\alpha P_{tot}H
-	\end{equation}
 		
+	\paragraph{Energia dissipata}
 	Sempre con l'analogia dell'attrito viscoso fra gli strati del disco, si può ricavare una formula per la \textit{frazione di energia dissipata} per unità di area:
 	\begin{equation}
 		D(R)=\frac{G\Sigma'}{4\pi R}=\frac{1}{2}\nu\Sigma(R\Omega')^2
@@ -274,16 +270,18 @@ Prof. Massimo \textsc{Dotti} % Supervisor's Name
 	La formula di $D(R)$ si ricava considerando che il calore sarà irradiato su entrambe le facce del disco, con superficie $4\pi RdR$.
 	
 \newpage
-\section{Modello di Struttura del Disco}
+\section{Modello di Struttura del Disco Sottile}
 	Definite le condizioni in cui avviene l'accrescimento e che portano alla formazione intorno al buco nero di un disco, se ne possono descrivere le proprietà e la struttura locale partendo da delle assunzioni sulla sua forma. 
 
-	Un'ipotesi che si è rivelata particolarmente efficace nel cotruire un modello semplice\footnote{Sebbene molti modelli diversi siano stati costruiti a riguardo per giustificare le osservazioni sperimentali con ipotesi diverse} è quella che il disco sia ovunque \textit{sottile}, ovvero considerare il gas che forma il disco così strettamente confinato al piano orbitale che si può trattare come un flusso di materia quasi-bidimensionale. Questa proprietà si può anche riassumere dicendo che ci aspettiamo l'altezza del disco sia ovunque molto minore del suo raggio esterno: $H\simeq\frac{c_s}{v_\phi}R\ll R$, con $v_\phi=\left(\frac{GM}{R}\right)^{1/2}$ velocità kepleriana a distanza $R$ dal buco nero di massa $M$.
+	Un'ipotesi che si è rivelata particolarmente efficace nel cotruire un modello semplice, come quello di Shakura e Sunyaev\footnote{Sebbene molti modelli diversi siano stati costruiti a riguardo per giustificare le osservazioni sperimentali con ipotesi diverse}, è quella che il disco sia ovunque \textit{sottile}, ovvero considerare il gas che forma il disco così strettamente confinato al piano orbitale che si può trattare come un flusso di materia quasi-bidimensionale. Questa proprietà si può anche riassumere dicendo che ci aspettiamo l'altezza del disco sia ovunque molto minore del suo raggio esterno: $H\simeq\frac{c_s}{v_\phi}R\ll R$, con $v_\phi=\left(\frac{GM}{R}\right)^{1/2}$ velocità kepleriana a distanza $R$ dal buco nero di massa $M$.
 	
-	Nel loro articolo seminale\footnote{\cite{ShakuraSunyaev1973}}, Shakura e Sunyaev sono stati in grado di dimostrare come l'ipotesi di disco sottile sia precisamente equivalente a quella di raffreddamento efficiente e di orbite kepleriane, così che se una di queste manca, lo fanno tutte. Quindi si dimostra che nelle zone termicamente stabili del disco deve valere l'ipotesi di sottigliezza.
+	Nel loro articolo seminale\footnote{\cite{ShakuraSunyaev1973}}, i due astrofisici moscoviti sono stati in grado di dimostrare come l'ipotesi di disco sottile sia precisamente equivalente a quella di raffreddamento efficiente e di orbite kepleriane, così che se una di queste manca, lo fanno tutte. Quindi si dimostra che nelle zone termicamente stabili del disco deve valere l'ipotesi di sottigliezza.
 	
-	Nell'ipotesi che il materiale del disco orbiti in modo circa kepleriano, si può descrivere il suo spostamento verso il corpo in accrescimento sommando alle velocità kepleriane una componente radiale $v_R$, negativa in un sistema di riferimento centrato su $M$ in coordinate polari.
-	
+	Questo particolare ovviamente, per quanto semplifichi la costruzione del modello di disco, non è completamente confermato dalle osservazioni, portando alla ri-discussione del modello di disco di accrescimento per mezzo di soluzioni a due temperature e non ovunque sottil. Ha comunque senso sviluppare e descrivere il disco come sottile, per apprezzare meglio le imperfezioni nel modello che Shakura e Sunyaev hanno sviluppato a partire da questa ipotesi.
+		
 	\paragraph{Conservazione della massa e Densità superficiale}
+		Nell'ipotesi che il materiale del disco orbiti in modo circa kepleriano, si può descrivere il suo spostamento verso il corpo in accrescimento sommando alle velocità kepleriane una componente radiale $v_R$, negativa in un sistema di riferimento centrato su $M$ in coordinate polari.
+
 	Considerando ancora un anello di gas da $R$ a $R+dR$, la cui massa vale $2\pi RdR\Sigma$ e che ha momento angolare totale $2\pi RdR\Sigma R^2\Omega$. Il flusso netto tra anelli vicini è descritto dalla variazione di queste due quantità. 
 	
 	Per la massa
@@ -313,9 +311,9 @@ Prof. Massimo \textsc{Dotti} % Supervisor's Name
 	\end{equation}
 	
 	In generale, supponendo $\nu$ sia una funzione delle condizioni locali del disco (ovvero di $\Sigma$, $R$ e $t$), questa rappresenta un'equazione non lineare di diffusione di $\Sigma$, ma supponendo che $\nu$ sia funzione del solo raggio e scali come una sua potenza, l'equazione diventa lineare e risolvibile analiticamente. In particolare nel caso in cui $\nu$ sia costante, come assunto nel modello di Shakura-Sunyaev, la soluzione per un disco che va da $R=0$ a $R=\infty$ e momento torcente nullo all'origine è ricavabile analiticamente e vale\footnote{Questa dimostrazione si deve a Lüst (1954)}\footnote{Nel caso in cui sia $\nu\propto\Sigma^aR^b$, il sistema è comunque risolvibileanaliticamente. Il caso con $a=3/7$ e $b=15/14$ corrisponde al caso di un disco otticamente spesso di SeS}
-	\begin{equation}
+	\begin{equation*}
 		\Sigma(R,t)=(12)^{1/4}R^{-3/4}\nu^{-3/4}\int^{\infty}_0d\lambda\,f(\lambda)e^{-\lambda^2t}J_{1/4}(R\lambda/\sqrt{3\nu})(R\lambda/\sqrt{3\nu})^{1/4}
-	\end{equation}
+	\end{equation*}
 	
 	Dove $f(\lambda)$ è una funzione che dipende dalle condizioni iniziali e $J_{1/4}$ è la funzione ordinaria di Bessel di ordine $1/4$.
 	
@@ -372,7 +370,7 @@ Prof. Massimo \textsc{Dotti} % Supervisor's Name
 \subsection{Modello di disco stazionario}
 	Poiché intorno ai sistemi in accrescimento le condizioni esterne variano con tempi molto maggiori di $t_{visc}$, per tempi relativamente lunghi si può considerare la struttura del disco come stazionaria.
 	
-	Analizzare un modello stazionario del disco permette di derivarne diverse proprietà interessanti. Nel loro primo articolo Shakura e Sunyaev si sono occupati principalmente dell'analisi di struttura sotto questa ipotesi, senza approfondire completamente il problema dell'instabilità e dell'evoluzione temporale del modello, ripreso da Lightman ed Eardle nel loro articolo del 1974\footnote{\cite{LightmanEardley1974}}.
+	Analizzare un modello stazionario del disco permette di derivarne diverse proprietà interessanti. Nel loro primo articolo Shakura e Sunyaev si sono occupati principalmente dell'analisi di struttura sotto questa ipotesi, senza approfondire completamente il problema dell'instabilità e dell'evoluzione temporale del modello, ripreso da Lightman ed Eardley nel loro articolo del 1974\footnote{\cite{LightmanEardley1974}}.
 	
 	\paragraph{Condizioni sul tasso di accrescimento}
 	Considerando l'ipotesi di stazionarietà, la conservazione della massa diventa un'equazione differenziale in $R$, con soluzione
@@ -385,11 +383,13 @@ Prof. Massimo \textsc{Dotti} % Supervisor's Name
 		\dot{M}=2\pi R\Sigma(-v_R)
 	\end{equation}
 	
-	Invece la conservazione del momento permette di derivare, una condizione sul tasso di acrescimento $\dot{M}$ rispetto alla distanza dal centro del disco.
+	E' importante notare come la costanza del flusso di materia sia una conseguenza diretta dall'assunzione sulla viscosità. Modelli moderni di accrescimento intorno a corpi compatti stanno considerando anche l'ipotesi che in certe sezioni del disco, $\dot{M}$ sia una funzione del raggio.
+	
+	La conservazione del momento angolare permette invece di derivare, una condizione sul tasso di acrescimento $\dot{M}$ rispetto alla distanza dal centro del disco.
 	
 	Imponendo la stazionarietà si trova:
 	\begin{equation}
-		R\Sigma v_RR^2\Omega=\frac{1}{2\pi}(G+cost)
+		\Sigma v_RR^3\Omega=\frac{1}{2\pi}(G+cost)
 	\end{equation}
 	
 	Che per la definizione di $G(R)$ diventa
@@ -443,7 +443,7 @@ Prof. Massimo \textsc{Dotti} % Supervisor's Name
 	\end{equation}
 	
 	\paragraph{Struttura verticale del disco}
-	In coordinate cilindriche, poiché non mi aspetto che nel disco sia presente un meccanismo che permetta del trasporto verticale di materia, lungo questa direzione deve essere mantenuto l'equilibrio idrostatico, ricavabile come parte della componente $z$ dell'equazione di Eulero:
+	In coordinate cilindriche, poiché non c'è ragione per credere nel disco sia presente un meccanismo che permetta del trasporto verticale di materia, lungo questa direzione deve essere mantenuto l'equilibrio idrostatico, ricavabile come parte della componente $z$ dell'equazione di Eulero:
 	\begin{equation*}
 		\frac{1}{\rho}\frac{\partial P}{\partial z}=\frac{\partial}{\partial z}\left[\frac{GM}{(R^2+z^2)^{1/2}}\right]
 	\end{equation*}
@@ -472,7 +472,7 @@ Prof. Massimo \textsc{Dotti} % Supervisor's Name
 		v_R\sim\frac{\nu}{R}\sim\alpha c_s\frac{H}{R}\ll c_s
 	\end{equation}
 	
-	\paragraph{Temperatura e Pressione} Poiché sotto l'ipotesi di disco sottile i gradienti in pressione e temperatura sono praticamente solo verticali, possiamo permetterci di tralasciarne l'analisi della componente radiale (tranne che per la definizione di $D(R)$) semplificando così la descrizione del disco.
+	\paragraph{Temperatura e Pressione} Poiché sotto l'ipotesi di disco sottile i gradienti in pressione e temperatura sono praticamente solo verticali, si può tralasciare l'analisi della componente radiale di queste grandezze (tranne che per la definizione di $D(R)$) semplificando così la descrizione del disco.
 	
 	Posso verificare che la condizione di equilibrio idrostatico, per un profilo verticale di temperatura costante, implica che valga
 	\begin{equation*}
@@ -480,7 +480,7 @@ Prof. Massimo \textsc{Dotti} % Supervisor's Name
 	\end{equation*}
 	con $\rho_c$ densità del piano centrale del disco $z=0$.
 	
-	Quindi assumendo la temperatura centrale del disco sia $T_c(R)=T(R,0)$, posso approssimare la densità centrale di un disco con $\rho=\Sigma/H$, dove $H=Rc_s/v_\phi$ e la velocità del suono è data da $c_s^2=P/\rho$, con la pressione $P$ data dalla somma di pressione di radiazione e gassosa
+	Quindi assumendo la temperatura centrale del disco sia $T_c(R)=T(R,0)$, posso approssimare la densità centrale di un disco con $\rho=\Sigma/H$, dove $H=Rc_s/v_\phi$ e la velocità del suono è data da $c_s^2=P/\rho$, con $P$ la somma della pressione radiativa e di quella gassosa
 	\begin{equation}
 		P=\frac{\rho\kappa T_c}{\mu m_p}+\frac{4\sigma}{3c}T_c^4
 	\end{equation}
@@ -496,7 +496,7 @@ Prof. Massimo \textsc{Dotti} % Supervisor's Name
 	\footnote{Opacità media per un sistema con diversi termini sorgenti di opacità (bb,bf,ff,...)\begin{equation}
 																							\frac{1}{k_R}=\frac{\int_0^\infty\frac{1}{k_\nu}\frac{\partial B_\nu(T)}{\partial T}d\nu}{\int_0^\infty\frac{\partial B_\nu(T)}{\partial T}d\nu}
 																						\end{equation}}.
-Questa definizione del flusso corrisponde implicitamente alla condizione che il disco sia \textit{otticamente spesso}\footnote{Sono stati costruiti anche modelli che consideravano il caso in cui il disco fosse stato otticamente sottile o la dissipazione di momento fosse accaduta in parti otticamenti sottili del disco, ma la loro geometria è diversa dal caso del disco otticamente spesso e non sono hanno ricevuto le stesse conferme osservative di questo modello.}, ovvero che valga
+Questa definizione del flusso corrisponde implicitamente alla condizione che il disco sia \textit{otticamente spesso}\footnote{Sono stati costruiti anche modelli che consideravano il caso in cui il disco fosse stato otticamente sottile o la dissipazione di momento fosse accaduta in parti otticamenti sottili del disco, ma la loro geometria è diversa dal caso del disco otticamente spesso. I modelli moderni di disco di accrescimento sono spesso formati da entrambi i tipi di regioni, otticamente spesse o sottili, per giustificare i flussi osservati.}, ovvero che valga
 	\begin{equation}
 		\tau=\rho H\kappa_R(\rho,T_c)=\Sigma\kappa_R\gg 1
 	\end{equation}
@@ -540,7 +540,9 @@ Questa definizione del flusso corrisponde implicitamente alla condizione che il 
 	\begin{equation}
 		\nu=\alpha c_sH
 	\end{equation}
-Questa è una legge che semplifica la forma dell'equazione della densità superficiale del disco, che ha avuto diversi riscontri sperimentali, ma più di tutto che è riuscita a marginalizzare la gravità della nostra ignoranza riguardo la natura dei processi viscosi nel disco, parametrizzandoli e riducendo le incognite da studiare ad una sola (la costante $\alpha$). L'altra faccia della medaglia di questa semplificazione nell'analisi delle equazioni e il vero grande problema della teoria dei dischi di accrescimento, come già detto, è che il modello di Shakura e Sunyaev (SeS), non appoggiandosi su osservazioni fisiche, è sterile e non permette di fare previsioni. Siamo solo in grado di confrontare i risultati delle nostre osservazioni con il valore che ci aspettiamo assuma $\alpha$, per provare a capirne la natura.
+Questa è una legge che semplifica la forma dell'equazione della densità superficiale del disco, che ha avuto diversi riscontri sperimentali (soprattutto nei primissimi anni dello studio dei sistemi binari), ma più di tutto che è riuscita a marginalizzare la gravità della nostra ignoranza riguardo la natura dei processi viscosi nel disco, parametrizzandoli e riducendo le incognite da studiare ad una sola (la costante $\alpha$). L'altra faccia della medaglia di questa semplificazione nell'analisi delle equazioni e il vero grande problema della teoria dei dischi di accrescimento, come già detto, è che il modello di Shakura e Sunyaev (SeS), non appoggiandosi ad osservazioni fisiche, è sterile e non permette di fare previsioni. Siamo solo in grado di confrontare i risultati delle nostre osservazioni con il valore che ci aspettiamo assuma $\alpha$, per provare a capirne la natura.
+
+Ad oggi il modello di Shakura e Sunyaev non può dirsi sicuramente affidabile, per lo meno per descrivere alcune regioni del disco. Gli sforzi dei modellisti si sono spostati da questa semplificazione verso la ricerca di una soluzione fisicamente stabile e coerente con le osservazioni dei sistemi binari che conosciamo.
 
 Per quanto riguarda l'opacità, SeS hanno assunto che la densità $\rho$ e la temeperatura centrale $T_c$ fossero tali che l'opacità media di Rosseland fosse approssimabile con la legge di Kramer
 \begin{equation}
@@ -548,7 +550,9 @@ Per quanto riguarda l'opacità, SeS hanno assunto che la densità $\rho$ e la te
 \end{equation}
 e hanno inoltre deciso di trascurare il termine legato alla pressione di radiazione nella formula di $P$.
 
-Con queste ipotesi si ottiene la soluzione del sistema, scritta in termini di $R_{10}=R/(10^{10}\,cm)$, $M_{1}=M/(M_\odot)$, $\dot{M}_{16}=\dot{M}/(10^{16}\,g\,s^{-1})$ e con $f=\left[1-\left(\frac{R_*}{R}\right)^{1/2}\right]^{1/4}$. Poniamo inoltre $\mu=0.615$, valore atteso per un medium completamente ionizzato formato da diversi gas. 
+Con queste ipotesi si ottiene la soluzione del sistema, scritta in termini di $R_{10}=R/(10^{10}\,cm)$, $M_{1}=M/(M_\odot)$, $\dot{M}_{16}=\dot{M}/(10^{16}\,g\,s^{-1})$ e con $f=\left[1-\left(\frac{R_*}{R}\right)^{1/2}\right]^{1/4}$. 
+
+Poniamo inoltre $\mu=0.615$, valore atteso per un medium completamente ionizzato formato da diversi gas. 
 
 \begin{equation}
 	\begin{cases}
@@ -566,19 +570,28 @@ Con queste ipotesi si ottiene la soluzione del sistema, scritta in termini di $R
 
 	Anche ipotizzando il nostro valore di $\alpha$ sia mediato verticalmente e, data l'uniformità del sistema, ignorandone quindi la dipendenza da $z$, resta purtroppo nulla la nostra conoscenza sulle sue dipendenze da $R$, $M$, $\dot{M}$ e dal tempo.
 	E' evidente come $\alpha$ non compaia nella soluzione con grandi potenze e quindi il suo ordine di grandezza risulti poco rilevante sui risultati delle equazioni di struttura, ma questo significa contemporaneamente che difficilmente potremo stimarne il valore con precisione solo attraverso osservazioni dirette di sistemi binari. 	
-	Se possiamo dire che si ottengono valori realistici dei parametri d'accrescimento dal modello per $\alpha\lesssim1$, sicuramente non abbiamo però elementi validi per capire come si evolva il sistema nel tempo al variare di $R$, $M$ e $\dot{M}$.
+	Se si può dire che si ottengono valori realistici dei parametri d'accrescimento dal modello per $\alpha\lesssim1$, sicuramente non ci sono elementi validi per capire come si evolva il sistema nel tempo al variare di $R$, $M$ e $\dot{M}$.
 	
 	Finché il modello resta valido (e in particolare finché l'approssimazione a legge di Kramer resta valida) il disco può estendersi a raggi piuttosto grandi, finanche a raggiungere l'ordine di grandezza del raggio del lobo di Roche del buco nero e il sistema delle soluzioni implica che anche per $R\sim10^{11}\,cm$, la massa del disco in ogni istante sia
 	\begin{equation}
-		M_d=2\pi\int^{R_{e}}_{R_\star}\Sigma RdR\lesssim (10^{-10}M_\odot)\alpha^{-4/5}\dot{M}^{7/10}_16
+		M_d=2\pi\int^{R_{e}}_{R_\star}\Sigma RdR\lesssim (10^{-10}M_\odot)\alpha^{-4/5}\dot{M}^{7/10}_{16}
 	\end{equation}
 	e quindi, a meno di un paramentro $\alpha$ molto piccolo ($\sim10^{-10}$) sarà sempre molto minore rispetto alla massa del corpo in accrescimento.
 	
-	Il modello di SeS introduce anche una condizione per poter ignorare l'effetto di auto-gravitazione (\textit{self-gravity}) del disco: affinché questo non si separi in parti auto-gravitanti\footnote{il disco collasserebbe in un tempo scala termico, superiore a quello dinamico $\sim\Omega^{-1}$.}\footnote{Paczynski ha ipotizzato in un suo articolo (1978a) che le turbolenze nel disco instabile avrebbero ampiezza $\sim H$ e sarebbero così violente da scaldare il disco abbastanza da fermare l'instabilità stessa. In questo caso la condizione sulla viscosità diventerebbe che il termine di auto-gravitazione sia rilevante: $\rho\simeq M/R^3$} deve valere la condizione sulla densità
+	Il modello di SeS introduce anche una condizione per poter ignorare l'effetto di auto-gravitazione (\textit{self-gravity}) del disco: affinché questo non si separi in parti auto-gravitanti\footnote{il disco collasserebbe in un tempo scala termico $\sim\Omega^{-1}$.}\footnote{Paczynski ha ipotizzato in un suo articolo del 1978 che le turbolenze nel disco instabile avrebbero ampiezza $\sim H$ e sarebbero così violente da scaldare il disco abbastanza da fermare l'instabilità stessa. In questo caso la condizione sulla viscosità diventerebbe che il termine di auto-gravitazione sia rilevante: $\rho\simeq M/R^3$} deve valere la condizione sulla densità
 		\begin{equation}
 			\rho\ll M/R^3
 		\end{equation}
 	che è valida a meno che $\alpha$ sia molto piccolo ($\sim10^{-10}$).
+	
+	Anche se non siamo ancora sicuri dei dettagli di come sia generata la turbolenza che permette il trasporto di momento angolare, nel caso sia vera l'ipotesi di Shakura e Sunyaev è possibile supporre che il momento torcente a cui è soggetta la materia nel disco dipenda solo dalla pressione a cui è soggetta. Ha senso quindi porla come proporzionale alla pressione totale ad un certo raggio\footnote{In particolare usando le equazioni della struttura del disco secondo SeS si trova $G(R)=3\pi\alpha PH$} (questo è comunque un risultato vero solo localmente, come tutta l'analisi di SeS)
+	\begin{equation}
+		G(R)\sim\alpha P
+	\end{equation}
+	
+	Questo si può dire anche se si dovesse modificare l'espressione della pressione totale, poiché si tratta di un'assunzione basata su aspettative fisiche, prima che un risultato dimostrato formalmente per il modello. 
+	
+	Spesso nella letteratura si parla equivalentemente dei dischi secondo Shakura e Sunyaev come $\alpha$-dischi o dischi $\alpha P$.
 	
 	\paragraph{Regioni dominate da pressione di radiazione}
 	Per quanto riguarda l'ipotesi che l'opacità sia regolata dalla legge di Kramer, possiamo osservare che per il nostro sistema delle soluzioni l'opacità è indipendente da $\alpha$ ed è espressa come
@@ -589,7 +602,7 @@ Con queste ipotesi si ottiene la soluzione del sistema, scritta in termini di $R
 	\begin{equation}
 		R\gtrsim R_K=2.5\times10^8\dot{M}^{2/3}_{16}M^{1/3}_1f^{8/3}\,cm
 	\end{equation}
-	Questo raggio, per tassi di accrescimento ragionevoli, è molto minore del raggio di una nana bianca, ma non meno dell'ultima orbita stabile di un buco nero.
+	Questo raggio, per tassi di accrescimento ragionevoli, è molto minore del raggio di una nana bianca, ma non meno dell'ultima orbita stabile di un buco nero o del raggio di una stella di neutroni.
 	
 	Poiché in prossimità del bordo esterno del disco ($R_{10}\sim1$) ci aspettiamo $T_c$ possa scendere molto al di sotto dei $10^4\,K$, condizione necessaria perché l'opacità sia descrivibile con la legge di Kramer come risultato della ricombinazione dell'idrogeno, dobbiamo analizzare il comportamento dell'opacità in queste regioni\footnote{In \cite{Pringle1981} viene puntualizzato come $10^4\,K$ sia anche una temperatura critica entro cui il disco è convettivamente instabile. La convezione è stata presa in considerazione come possibile causa del moto turbolento che avrebbe potuto spiegare la natura della viscosità}.
 	
@@ -647,13 +660,6 @@ ed è molto piccolo per le regioni dominate dall'opacità di Kramer ($R\gtrsim R
 	
 	Comunque questo non è ovviamente l'unico caso in cui il disco smetta di essere sottile, per esempio anche una temperatura centrale molto superiore di quella di un corpo nero potrerebbe a risultati simili.
 	
-	Un'altra conseguenza interessante dell'indipendenza dell'altezza dal raggio è che permette di approssimare nelle regioni dominate da pressione di radiazione il momento torcente a cui è sottoposto il materiale del disco come
-	\begin{equation}
-		G(R)\sim\alpha P_{tot}\sim\alpha P_r
-	\end{equation}
-	
-	Semplificando spesso i calcoli relativi a queste regioni.
-	
 \subsection{Spettro di emissione}
 	Abbiamo prescritto che il disco sia otticamente spesso nella direzione $z$, per cui mi aspetto ogni elemento del disco irradi come un corpo nero e quindi con temperatura $T(R)$ tale che
 	\begin{equation}
@@ -693,9 +699,9 @@ ed è molto piccolo per le regioni dominate dall'opacità di Kramer ($R\gtrsim R
 	Se rappresento lo spettro in un sistema bilogaritmico\footnote{Immagine da \cite{GhiselliniRadiativi}} posso apprezzare il comportamento asintotico del flusso, che dipende da quello della plankiana
 	\begin{equation}
 		F_\nu\propto\begin{cases}
-						\nu^2 & \nu\ll kT(R_{e})/h \textit{ "regione di Rayleigh-Jeans"}\\
+						\nu^2 & \nu\ll kT(R_{e})/h \quad\textit{``regione di Rayleigh-Jeans"}\\
 						\nu^{1/3} & kT(R_{\star})/h\ll\nu\ll kT(R_{e})/h\\
-						e^{-h\nu/kT} & \nu\gg kT(R_{\star})/h \textit{ "regione di Wien"}						
+						e^{-h\nu/kT} & \nu\gg kT(R_{\star})/h\quad\textit{``regione di Wien"}						
 					\end{cases}
 	\end{equation}
 	Il comportamento a frequenze intermedie $F_\nu\propto\nu^{1/3}$ è considerato caratteristico dei dischi di accrescimento e la lunghezza della regione con quella pendenza dipende dalla differenza di temperatura tra il bordo interno e quello del disco. Se $T(R_{\star})\cong T(R_{e})$ lo spettro di emissione del disco si avvicina sempre più a quello di un corpo nero.
@@ -706,9 +712,11 @@ ed è molto piccolo per le regioni dominate dall'opacità di Kramer ($R\gtrsim R
 
 	Quindi la prima ragione per studiare l'evoluzione temporale del disco è che un'analisi della dipendenza dal tempo dei parametri che lo definiscono ci permette di verificarne la stabilità rispetto a piccole perturbazioni. 
 	
-	Un disco di accrescimento stazionario deve essere ovviamente stabile. Ogni instabilità derivata dal sistema delle equazioni che lo definiscono deve dipendere da un errore tra le ipotesi con cui è costruito il modello usato per l'accresciemento o quello del disco stazionario. Si potrebbe quindi dire più correttamente che non ci aspettiamo le instabilità siano reali, ma solo la dimostrazione dell'inconsistenza interna delle ipotesi che abbiamo utilizzato.
+	Un disco di accrescimento stazionario deve essere ovviamente stabile. Ogni instabilità derivata dal sistema delle equazioni che lo definiscono deve dipendere da un errore tra le ipotesi con cui è costruito il modello usato per l'accresciemento o quello del disco stazionario. Si potrebbe quindi dire più correttamente che non ci si deve aspettare le instabilità siano reali, ma solo che siano la dimostrazione dell'inconsistenza interna delle ipotesi che si stavano utilizzando.
 	
-	Una seconda ragione per studiare l'evoluzione delle soluzioni è che, proprio perché il nostro modello di disco stazionario ha parametri praticamente indipendenti dall'ordine di grandezza dal coefficente $\alpha$, le osservazioni di dischi stazionari non possono migliorare la nostra conoscenza della viscosità, mentre la ricerca e lo studio delle instabilità del disco permette di evidenziare incertezze nel modello e di fare osservazioni quantitative riguardo alla viscosità nel disco.
+	Una seconda ragione per studiare l'evoluzione delle soluzioni è che, proprio perché un modello di disco stazionario come quello di Shakura e Sunyaev ha parametri praticamente indipendenti dall'ordine di grandezza dal coefficente $\alpha$. Le osservazioni di dischi stazionari non possono quindi migliorare la nostra conoscenza della viscosità, mentre la ricerca e lo studio delle instabilità del disco permette di evidenziare incertezze nel modello e di fare osservazioni quantitative riguardo alla viscosità nel disco.
+	
+	Nonostante la sua eleganza e la semplicità delle ipotesi su cui era costruito, il modello di Shakura e Sunyaev è stato immediatamente riconosciuto dai suoi autori come instabile sotto certe condizioni nell'articolo in cui l'hanno descritto per la prima volta. Pochi mesi dopo la pubblicazione dell'articolo del 1973, sono stati in molti a cercare subito di descrivere le instabilità dei dischi $\alpha$ e a confrontarne le soluzioni con le osservazioni (limitate a pochi oggetti all'epoca e in particolare dirette verso Cygnus X-1) per modificarlo e costruirne una versione stabile e coerente.
 	
 	\paragraph{Tempi scala del disco}	
 	La struttura del disco può variare in diverse scale temporali, a seconda del tipo di fenomeno che la sta interessando. 	
@@ -750,11 +758,11 @@ ed è molto piccolo per le regioni dominate dall'opacità di Kramer ($R\gtrsim R
 		t_\phi\sim t_z\lesssim t_{th}\ll t_{visc}	
 	\end{equation}
 
-	Questo giustifica ancora una volta l'ipotesi che la materia del disco percorra orbite circa kepleriane.
+	Questa gerarchia si dimostra essere corretta ed è un'ulteriore conferma che l'ipotesi che la materia del disco percorra orbite circa kepleriane è corretta.
 
 	Tramite il sistema delle equazioni del disco si trova che, per parametri tipici, i tempi scala termico e dinamico sono dell'ordine dei minuti e quello viscoso va dai giorni alle settimane.
-	
-	La netta distinzione fra i tempi scala permette di distinguere di conseguenza diversi tipi di instabilità per il disco.
+
+	La netta distinzione fra i tempi scala permette di distinguere di conseguenza diversi tipi di perturbazione che può interessare il disco, evidenziando magari delle instabilità.
 	
 \subsection{Instabilità termica}
 	Si definisce \textit{instabilità termica} quella che dipende da una perturbazione che varia in un arco di tempo dell'ordine di $t_{th}$. Lo sviluppo di questo tipo di instabilità nel modello di SeS è stata prevista la prima volta da Pringle, Rees e Pacholczyck nel loro articolo del 1973\footnote{\cite{PringleReesPacholczyk1973}. L'articolo, scritto dopo la pubblicazione del lavoro dello stesso anno di Shakura e Sunyaev, è concentrato sullo spettro di emissione che ci si aspettava producessero i dischi, confrontato da quello prodotto da un possibile accrescimento sferico, come era inteso da Salpeter. La stabilità termica viene introdotta come una condizione necessaria al disco per irradiare senza "spegnersi".}
@@ -771,8 +779,8 @@ ed è molto piccolo per le regioni dominate dall'opacità di Kramer ($R\gtrsim R
 	\begin{equation}
 		\frac{dQ^-}{dT_c}<\frac{dQ^+}{dT_c}
 	\end{equation}
-	
-	\paragraph{regioni otticamente sottili}
+
+	\paragraph{Regioni otticamente sottili}
 	Una regione del disco, quando viene attraversata da una perturbazione, può risultare così poco densa che la profondità ottica lungo la direzione verticale sia $\tau\ll1$. In questo caso ha senso supporre che il tasso di raffreddamento $Q^-$ dipenderà solo dall'emissività, che per una regione otticamente sottile vale $4\pi j(\rho,T_c)$. In particolare questo tipo di gas emette con processi a due corpi, tali per cui vale $4\pi j\propto \rho^2\Lambda(T_c)$. 
 	
 	Definisco $\Lambda$ \textit{curva di raffreddamento}. Dipende dall'equilibrio di ionizzazione mantenuto nel gas (se per fotoionizzazzione, scattering o altri processi) ed è la sua forma funzionale rispetto a $T_c$ a determinare se l'instabilità cresca o no nel disco.
@@ -791,7 +799,7 @@ ed è molto piccolo per le regioni dominate dall'opacità di Kramer ($R\gtrsim R
 	Si dimostra che la forma funzionale di $\Lambda$ è circa la stessa, indipendentemente dallo spessore ottico o se la pressione è dominata dal termine radiativo piuttosto che da quello gassoso. Quindi per\footnote{E' importante sottolineare comunque come $\Lambda$ dipenda dalla nostra condizione su $\alpha$: se per esempio, invece dell'assunzione di Shakura e Sunyaev ipotizzassimo che $\alpha\sim T^{-2}_c$ ci dovremmo aspettare che l'instabilità si estenda nelle regioni con $T_c\lesssim10^4\,K$. Comunque questo non è plausibile in quanto ci aspettiamo $\alpha\lesssim1$ ovunque sul disco e un risultato tipo $\alpha\sim T^{-2}_c$ non potrebbe valere per un intervallo di temperature troppo ampio.}
 $\alpha\sim cost$, $\Lambda(T_c)$ decresce per $T_c\gtrsim10^4\,K$ e mi aspetto le regioni otticamente sottili del disco siano termicamente instabili proprio al di sopra di questi valori della temperatura centrale.
 		
-	\paragraph{regioni otticamente spesse}
+	\paragraph{Regioni otticamente spesse}
 	Nel caso di una regione otticamente spessa invece, si dimostra che il tasso di raffreddamento vale, tenendo conto anche il riassorbimento locale di energia irradiata e utilizzando l'opacità di Kramer:
 	\begin{equation}
 		Q^-=\frac{dF}{dz}\sim\frac{\sigma T_c^4}{\kappa_R\rho H^2}\sim\frac{T_c^{15/2}}{\Sigma^2}\sim T_c^{15/2}
@@ -857,7 +865,7 @@ $\alpha\sim cost$, $\Lambda(T_c)$ decresce per $T_c\gtrsim10^4\,K$ e mi aspetto 
 		\nu=\alpha c_sH=\alpha H\left(\frac{\kappa T_c}{\mu m_p}\right)^{1/2}=\nu(R,\Sigma)
 	\end{equation*}
 	
-	E con questa condizione abbiamo già osservato che l'equazione 7 diventa un'equazione non lineare di diffusione per $\Sigma(R,t)$\footnote{Questa condizione non sarebbe rispettata se per esempio $\alpha$ non fosse una funzione delle condizioni locali del disco, ma definita da fattori ambientali. In quel caso avrebbe potuto avere anche una dipendenza esplicita dal tempo.}. L'equazione è così risolvibile numericamente e permette di ricavare la soluzione completa in funzione del tempo.
+	E con questa condizione abbiamo già osservato che l'equazione 7 diventa un'equazione non lineare di diffusione per $\Sigma(R,t)$\footnote{Questa condizione non sarebbe rispettata se per esempio $\alpha$ non fosse una funzione delle condizioni locali del disco, ma definita da fattori ambientali. In quel caso avrebbe potuto avere anche una dipendenza esplicita dal tempo. Questo tipo di ipotesi viene spesso considerata nella costruzione di modelli alternativi a quello di disco sottile o a due temperature.}. L'equazione è così risolvibile numericamente e permette di ricavare la soluzione completa in funzione del tempo.
 
 	Per studiare efficacemente gli effetti delle instabilità viscose, posso decidere di perturbare la densità superficiale il disco con una variazione a simmetria assiale rispetto al BH (e che quindi agisce coerentemente ad ogni raggio).
 	
@@ -915,7 +923,10 @@ $\alpha\sim cost$, $\Lambda(T_c)$ decresce per $T_c\gtrsim10^4\,K$ e mi aspetto 
 	\subsection{Instabilità e collasso del disco nelle regioni dominate da pressione di radiazione}
 	Tanto per cominciare, è possibile dimostrare che nelle regioni centrali del disco secondo SeS, le zone dominate da pressione di radiazione e l'opacità è legata principalmente allo scattering elettronico sono contemporaneamente viscosamente e termicamente instabili.
 	
-	Questo si può apprezzare osservando come, inserendo nell'equazione di diffusione della densità superficiale del disco l'equazione che descrive il momento torcente subito dal disco $G(R)$ per le regioni interne e si esplicita la formula della pressione	
+	Questo si può apprezzare osservando come, inserendo nell'equazione di diffusione della densità superficiale del disco l'equazione che descrive il momento torcente subito dal disco $G(R)\sim\alpha P_r$ per le regioni interne, si arriva ad un'equazione per l'evoluzione di $\Sigma(r,t)$
+	\begin{equation*}
+		\frac{\partial\Sigma}{\partial t}=\frac{\partial}{\partial r}\left[\frac{d(\Omega r^2)}{dr}\right]^{-1}\frac{\partial}{\partial r}[r^2G(\Sigma,R)]
+	\end{equation*}
 	
 	Questo è un campanello d'allarme sulla validità dell'assunzione $\alpha$, poiché l'analisi della struttura del disco a regimi subcritici e un grande numero di osservazioni ci dicono che più della metà dell'emissione dovuta all'accrescimento avviene proprio nelle regioni più interne al disco\footnote{Immagine da \cite{ShakuraSunyaev1973}}.
 		
@@ -928,8 +939,7 @@ $\alpha\sim cost$, $\Lambda(T_c)$ decresce per $T_c\gtrsim10^4\,K$ e mi aspetto 
 	
 	Quello che sembra più logico fare, per correggere questo tipo di instabilità è cambiare la condizione sulla viscosità, di per sé completamente ad hoc, ma non è ancora stata trovata una soluzione che non venisse smentita da delle osservazioni o non si potesse giustificare fisicamente\footnote{Come spiegato in \cite{Pringle1981}}. Per questo molti ora si stanno impegnando a costruire simulazioni al calcolatore per cercare fenomeni legati all'instabilità delle regioni interne del disco.
 
-	\paragraph{I primi lavori a riguardo}	
-	
+	\paragraph{I primi lavori a riguardo}		
 	Nel loro articolo del 1974, Lightman ed Eardley, oltre ad aver collegato l'instabilità del disco al trasporto di massa e alla formazione di anelli, hanno osservato come si possa esprimere la viscosità in termini della velocità angolare del disco
 	\begin{equation}
 		\nu=\alpha c_sH=\alpha\frac{c_s^2}{\Omega}
@@ -944,19 +954,47 @@ $\alpha\sim cost$, $\Lambda(T_c)$ decresce per $T_c\gtrsim10^4\,K$ e mi aspetto 
 	
 	Shakura e Sunyaev hanno osservato nel loro articolo di review sulle instabilità nei dischi di accrescimento del 1976\footnote{\cite{ShakuraSunyaev1976}}, come le assunzioni che Lightman ed Eardley hanno utilizzato per ottenere il loro risultato, formalmente giusto, siano incorrette: i due americani hanno dedotto l'instabilità viscosa del disco utilizzando una relazione che lega la densità superficiale $\Sigma$ e l'altezza del disco $H$ valida in condizioni stazionarie, per cui implicitamente deve essere stabilità l'equilibrio $Q^+=Q^-$. Ciò nonostante, all'articolo di Lightman ed Eardley viene ancora riconosciuto il primato di aver trovato  come l'ipotesi di disco sottile e spessore ottico ridotto siano incompatibili con l'ipotesi che il disco sia stazionario ed hanno dato il via allo studio dell'ipotesi che il bordo interno del disco sia formato da una nuvola di gas otticamente spessa.
 	
-	 Nella loro review, SeS hanno saputo descrivere meglio l'instabilità delle regioni interne dei dischi a piccole perturbazioni, dimostrando come la soluzione di LeE fosse un limite asintotico della loro soluzione. 
+	 Nella loro review, SeS hanno saputo descrivere meglio l'instabilità delle regioni interne dei dischi a piccole perturbazioni, dimostrando come il risultato di LeE fosse un limite asintotico della loro soluzione. 
 	 
 	 In questo articolo purtroppo, i due scienziati hanno anche assunto erroneamente che l'origine della dissipazione viscosa fosse dovuta al solo moto turbolento della materia nel disco, ottenendo dei risultati che si sono stati smentiti dalle osservazioni. il loro ragionamento brilla però ovviamente per eleganza, perché ridefinita la struttura stazionaria del disco a partire dalle ipotesi sulla viscosità e alla conservazione dell'energia, sono stati in grado di descrivere le instabilità viscose come effetti della differenza fra $Q^+$ e $Q^-$, ottenendo l'espressione della condizione di instabilità viscosa legata alla temperatura superficiale del disco enunciata prima.
 	 
-	 Quando si discutono le instabilità nella cosiddetta \textit{regione A} del disco\footnote{Questa terminologia viene dal primo articolo di Shakura e Sunyaev ed è stata spesso ripresa nella bibliografia sull'accrescimento. Le regioni del disco distinte per pressione dominante e origine dell'opacità erano chiamate, dall'interno del disco verso l'esterno, regione A, B e C.} (dove $P_r\gg P_g$ e $k=k_R$), si usa ancora parlare delle cosiddette \textit{instabilità di Shakura e Sunyaev}.
-	
-	\subsection{Spettro nella banda dei raggi X e modello a due temperature}	
-	Tanto per cominciare, il modello di disco prevedeva per i buchi neri super massicci un picco di emissione negli ultravioletti (il cosiddetto \textit{Big Blue Bump} negli AGN) e per i buchi neri stellari prevedeva invece il picco si trovi neggli X morbidi, come viene effettivamente osservato. 
-	
-	Quello che il modello non sapeva spiegare è che i sistemi binari contenenti buchi neri.	
+	 Quando si discutono le instabilità nella regione del disco dominata dalla pressione radiativa, dove $P_r\gg P_g$ e $k=k_R$, si usa ancora parlare delle cosiddette \textit{instabilità di Shakura e Sunyaev}.
 	 
+	 \subsection{Spettro nella banda dei raggi X e modello a due temperature}	
+	Il modello di disco di Shakura e Sunyaev prevede per i buchi neri super massicci un picco di emissione negli ultravioletti (il cosiddetto \textit{Big Blue Bump} negli AGN) e per i buchi neri stellari invece il picco dovrebbe trovarsi neggli X morbidi, come viene effettivamente osservato.
+	
+	Quello che il modello non sapeva spiegare è che i sistemi binari contenenti buchi neri
+	 
+	 \subsection{Collasso delle regioni interne del disco}
+	
+	In un loro articolo del 2004\footnote{\cite{TeresiMolteniToscano2004}}, V. Teresi, D. Molteni ed E. Toscano si sono occupati di studiare l'evoluzione di un disco secondo Shakura e Sunyaev a regime di accrescimento subcritico, concentrandosi sulle regioni dominate da pressione di radiazione per cercare prove di come potrebbe evolversi, se collassando in una nube otticamente sottile e geometricamente spessa o espandendosi e perdendo materiale fino a smettere di irradiare. 
+	
+	Questo tipo di simulazione era stato già fatto diverse volte tra gli anni '80 e i primi anni 2000, con risultati discordanti: Taam e Lin\footnote{\cite{TaamLin1984}} hanno osservato delle fluttuazioni nella luminosità del disco legate ad esplosioni o flare, Eggum ha esposto in un suo articolo del 1987 come dai suoi risultati sembrasse il disco fosse destinato ad appiattirsi ed espandersi fino a spegnersi e Fujita e Okuda nel 1998 sembravano aver dimostrato che il disco era effettivamente stabile termicamente a regimi subcritici di accrescimento nelle regioni dominate da pressione di radiazione, come previsto dal modello di "accrescimento sottile" (\textit{slim accretion model})\footnote{Un modello secondo cui l'instabilità in queste regioni è prevenuta dalla dominanza del fluso di calore advettivo rispetto a quello di calore radiativo verticale}. Il difetto di tutte queste simulazioni era che, con i mezzi diposnibili all'epoca in cui sono state fatte, potevano essere solo bidimensionali e l'evoluzione del disco era calcolata per periodi di tempo molto più brevi del tempo scala viscoso. Quindi potevano star descrivendo situazioni transienti e non risvolti definitivi.
+	
+	I tre italiani, riprendendo un lavoro di Agol del 2001, hanno quindi utilizzato tempi di integrazione più lunghi, riuscendo ad osservare l'effettivo collasso delle regioni interne del disco, che inizia con una serie di fluttuazioni e di instabilità legata a flare e ad un momentaneo recupero della sua luminosità iniziale da parte del disco, che dura appunto meno del tempo scala viscoso. 
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\linewidth]{CollassoDisco1}
+		\caption{Evoluzione del disco con $\alpha=0.01$, $\dot{M}=0.7$, dominio $R_1-R_2=3-300\,h$, $h=0.3$. Nella figura di sinistra viene mostrato al tempo unitario $t=282$ ed è evidente come nei pressi del buco nero centrale ci sia una regione interessata da moti convettivi. La seconda è a $t=12000$ e mostra l'evidente collasso della regione centrale del disco. Le lunghezze sono rappresentate in unità di $R_\star$}
+		\label{fig:CollassoDisco1}
+	\end{figure}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\linewidth]{CollassoDisco2}
+		\caption{Diagramma del rapporto tra pressione radiativa e gassosa $P_r/P_g$. A $t=282$ il disco sembra essere dominato da pressione di radiazione fino a $\sim150\,R_\star$, mentre a $t=12000$ è evidente come le sue regioni interne siano collassate e sia dominato da pressione gassosa fino a $\sim70\,R_\star$. Le lunghezze sono in unità di $R_\star$}
+		\label{fig:CollassoDisco2}
+	\end{figure}
+	
+	Sono anche arrivati ad ipotizzare che la ragione per cui avviene il collasso piuttosto che l'espansione, sia legato al trasporto di calore convettivo-advettivo. In particolare hanno osservato come il modello di Shakura e Sunyaev non considera l'eventualità che ci sia un moto convettivo radiale nel disco, che però compare spontaneamente nelle loro simulazioni\footnote{Immagine da \cite{TeresiMolteniToscano2004}}.	
+	
+	Secondo loro è possibile che la convezione trasporti l'energia in eccesso prodotto dalla viscosità (che causerebbe altrimenti l'espansione termica) a raggi maggiori di quelli dominati da pressione di radiazione. Un problema sollevato da questa ipotesi è che da sola non permette di spiegare l'origine della nube soggetta a comptonizzazione, partendo dalla sola instabilità termica nel disco di Shakura e Sunyaev.
+	
+	Un altro risultato interessante del loro lavoro è che hanno previsto nel disco si sviluppino delle onde meccaniche, che potrebbero essere legate a dei processi di oscillazione quasi periodica e potrebbero essere la causa alla variabilità periodica del flusso che si osserva in alcuni sistemi.
+
 \newpage
-\section{Conclusione}
+\section{Oltre il modello di Shakura e Sunyaev}
 Dopo di questo---
 
 Lo studio delle variabili cataclismiche ha permesso di...
@@ -971,7 +1009,7 @@ E' un ambito più legato a modelli e confronto con le osservazioni, che teorico.
 	Sono stati fondamentali anche alcune  \textit{review} di \textit{King}\cite{King2012} e \textit{Pringle}\cite{Pringle1981}, che sintetizzano efficacemente l'argomento dell'accrescimento e permettono di avere una visione di insieme dei risultati ottenuti.
 	
 	E' stato fondamentale per la mia comprensione dello sviluppo delle teorie, l'analisi e la lettura degli articoli originali sui modelli di disco di accrescimento intorno ai corpi compatti.
-	Ho lavorato quindi anche con gli articoli seminali di \textit{Pringle}, \textit{Reese}, \textit{Shakura}, \textit{Sunyaev} e \textit{Pacholczyk}\cite{PringleReese1972}\cite{PringleReesePacholczyk1973}\cite{ShakuraSunyaev1973} e la splendida analisi del lavoro nella fondazione della teoria di accrescimento di Zeldovich svolta da Shakura quest'anno\cite{ShakuraZeldovich2018}.
+	Ho lavorato quindi anche con gli articoli seminali di \textit{Pringle}, \textit{Reese}, \textit{Shakura}, \textit{Sunyaev} e \textit{Pacholczyk}\cite{PringleReese1972}\cite{PringleReesPacholczyk1973}\cite{ShakuraSunyaev1973} e la splendida analisi del lavoro nella fondazione della teoria di accrescimento di Zeldovich svolta da Shakura quest'anno\cite{ShakuraZeldovich2018}.
 	
 	Per quanto riguarda in particolare l'argomento della tesi, ovvero l'instabilità nelle regioni dominate dalla pressione radiativa nel modello del disco di accrescimento, ho fatto riferimento al primissimo lavoro a riguardo di \textit{Lightman} ed \textit{Eardley}\cite{LightmanEardley1974} e ad articoli successivi che estendono, propongono alternative, ne analizzanoi risultati o li computano. Questi sono stati scritti da \textit{Shakura} e \textit{Sunyaev}\cite{ShakuraSunyaev1976}, \textit{Shapiro} con gli stessi \textit{Lightman} ed \textit{Eardley}\cite{ShapiroLightmanEardley1976}, \textit{Taam} e \textit{Lin}\cite{TaamLin1984} e \textit{Teresi}, \textit{Molteni} e \textit{Toscano}\cite{TeresiMolteniToscano2004}.
 	
