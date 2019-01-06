@@ -25,12 +25,14 @@
 \contentsline {paragraph}{Regioni otticamente sottili}{29}
 \contentsline {paragraph}{Regioni otticamente spesse}{30}
 \contentsline {subsection}{\numberline {4.2}Instabilit\IeC {\`a} viscosa}{30}
-\contentsline {paragraph}{Evoluzione temporale del disco stazionario}{31}
+\contentsline {paragraph}{Evoluzione temporale del disco}{31}
 \contentsline {paragraph}{Instabilit\IeC {\`a} viscosa}{32}
-\contentsline {paragraph}{Significato fisico della condizione di instabilit\IeC {\`a} viscosa}{33}
+\contentsline {paragraph}{Significato fisico della condizione}{33}
 \contentsline {section}{\numberline {5}Evidenze dell'instabilit\IeC {\`a} del modello di Shakura e Sunyaev}{35}
 \contentsline {subsection}{\numberline {5.1}Instabilit\IeC {\`a} e collasso del disco nelle regioni dominate da pressione di radiazione}{35}
-\contentsline {paragraph}{I primi lavori a riguardo}{36}
-\contentsline {subsection}{\numberline {5.2}Spettro nella banda dei raggi X e modello a due temperature}{37}
-\contentsline {subsection}{\numberline {5.3}Collasso delle regioni interne del disco}{37}
-\contentsline {section}{\numberline {6}Oltre il modello di Shakura e Sunyaev}{40}
+\contentsline {paragraph}{L'effetto di avvezione e convezione}{37}
+\contentsline {paragraph}{Dinamica del collasso delle regioni interne del disco}{38}
+\contentsline {subsection}{\numberline {5.2}Spettro nella banda dei raggi X e Cyg X-1}{39}
+\contentsline {paragraph}{Cyg X-1 e il modello a disco troncato}{41}
+\contentsline {paragraph}{Sviluppi moderni}{42}
+\contentsline {section}{\numberline {6}Conclusione}{46}

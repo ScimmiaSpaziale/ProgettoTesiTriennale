@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  23 DEC 2018 16:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  5 JAN 2019 18:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1011,66 +1011,84 @@ Package pdftex.def Info: SpettroDiscoGhisellini.png  used on input line 694.
 <TemperaturaDensita.png, id=144, 228.855pt x 190.7125pt>
 File: TemperaturaDensita.png Graphic file (type png)
 <use TemperaturaDensita.png>
-Package pdftex.def Info: TemperaturaDensita.png  used on input line 912.
+Package pdftex.def Info: TemperaturaDensita.png  used on input line 913.
 (pdftex.def)             Requested size: 137.9979pt x 115.00165pt.
- [33]
-[34 <./TemperaturaDensita.png>]
+ [33 <./TemperaturaDensita.png>] [34]
 <RegioniDisco.png, id=151, 584.1825pt x 213.79875pt>
 File: RegioniDisco.png Graphic file (type png)
 <use RegioniDisco.png>
-Package pdftex.def Info: RegioniDisco.png  used on input line 935.
+Package pdftex.def Info: RegioniDisco.png  used on input line 929.
 (pdftex.def)             Requested size: 310.4979pt x 113.63902pt.
- [35 <./RegioniDisco.png>] [36]
-<CollassoDisco1.png, id=159, 966.61125pt x 314.17375pt>
+ [35 <./RegioniDisco.png>]
+<PresInstLimitCycle.png, id=155, 892.33376pt x 390.45876pt>
+File: PresInstLimitCycle.png Graphic file (type png)
+<use PresInstLimitCycle.png>
+Package pdftex.def Info: PresInstLimitCycle.png  used on input line 942.
+(pdftex.def)             Requested size: 310.4979pt x 135.86424pt.
+ [36 <./PresInstLimitCycle.png>] [37]
+<CollassoDisco1.png, id=163, 966.61125pt x 314.17375pt>
 File: CollassoDisco1.png Graphic file (type png)
 <use CollassoDisco1.png>
-Package pdftex.def Info: CollassoDisco1.png  used on input line 978.
+Package pdftex.def Info: CollassoDisco1.png  used on input line 977.
 (pdftex.def)             Requested size: 345.0pt x 112.1341pt.
- [37]
-<CollassoDisco2.png, id=163, 480.79625pt x 304.13625pt>
+ [38]
+<CollassoDisco2.png, id=167, 480.79625pt x 304.13625pt>
 File: CollassoDisco2.png Graphic file (type png)
 <use CollassoDisco2.png>
-Package pdftex.def Info: CollassoDisco2.png  used on input line 985.
+Package pdftex.def Info: CollassoDisco2.png  used on input line 984.
 (pdftex.def)             Requested size: 276.00105pt x 174.59389pt.
- [38 <./CollassoDisco1.png> <./CollassoDisco2.png>] [39] [40] [41] [42] (./tesi
-.aux) ) 
+ [39 <./CollassoDisco1.png> <./CollassoDisco2.png>] [40]
+<CygX1.png, id=174, 707.64375pt x 370.38374pt>
+File: CygX1.png Graphic file (type png)
+<use CygX1.png>
+Package pdftex.def Info: CygX1.png  used on input line 1021.
+(pdftex.def)             Requested size: 276.00105pt x 144.46037pt.
+
+[41 <./CygX1.png>] [42] [43] [44]
+<SpectralTypes.png, id=188, 732.7375pt x 314.17375pt>
+File: SpectralTypes.png Graphic file (type png)
+<use SpectralTypes.png>
+Package pdftex.def Info: SpectralTypes.png  used on input line 1078.
+(pdftex.def)             Requested size: 276.00105pt x 118.3422pt.
+ [45 <./SpectralTypes.png>] [46] [47] [48]
+(./tesi.aux) ) 
 Here is how much of TeX's memory you used:
- 16004 strings out of 492982
- 294682 string characters out of 6134895
- 349133 words of memory out of 5000000
- 19218 multiletter control sequences out of 15000+600000
+ 16022 strings out of 492982
+ 295033 string characters out of 6134895
+ 349163 words of memory out of 5000000
+ 19233 multiletter control sequences out of 15000+600000
  14773 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,14n,56p,1217b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
-2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on tesi.pdf (43 pages, 827040 bytes).
+ 62i,14n,56p,1324b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on tesi.pdf (49 pages, 967548 bytes).
 PDF statistics:
- 269 PDF objects out of 1000 (max. 8388607)
- 183 compressed objects within 2 object streams
+ 291 PDF objects out of 1000 (max. 8388607)
+ 196 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
