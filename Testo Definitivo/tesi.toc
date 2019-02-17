@@ -1,29 +1,29 @@
 \babel@toc {italian}{}
 \babel@toc {italian}{}
-\contentsline {section}{\numberline {1}Introduzione}{4}
-\contentsline {section}{\numberline {2}Accrescimento in sistemi binari}{5}
-\contentsline {subsection}{\numberline {2.1}Deflusso attraverso i Lobi di Roche}{5}
-\contentsline {subsection}{\numberline {2.2}Formazione di un disco}{7}
-\contentsline {paragraph}{Orbita del gas}{8}
-\contentsline {subsection}{\numberline {2.3}Processi Dissipativi}{9}
-\contentsline {paragraph}{Forma funzionale della viscosit\IeC {\`a}}{10}
-\contentsline {paragraph}{Momento torcente}{11}
-\contentsline {paragraph}{Energia dissipata}{12}
-\contentsline {section}{\numberline {3}Modello di Struttura del Disco Sottile}{13}
-\contentsline {paragraph}{Conservazione della massa e Densit\IeC {\`a} superficiale}{13}
-\contentsline {subsection}{\numberline {3.1}Modello di disco stazionario}{16}
-\contentsline {paragraph}{Condizioni sul tasso di accrescimento}{16}
-\contentsline {paragraph}{Dissipazione di energia}{17}
-\contentsline {paragraph}{Struttura verticale del disco}{18}
-\contentsline {paragraph}{Temperatura e Pressione}{19}
-\contentsline {subsection}{\numberline {3.2}La soluzione di Shakura e Sunyaev}{20}
-\contentsline {paragraph}{Regioni dominate da pressione di radiazione}{22}
-\contentsline {subsection}{\numberline {3.3}Spettro di emissione}{25}
-\contentsline {section}{\numberline {4}Evoluzione temporale dei dischi e instabilit\IeC {\`a}}{27}
-\contentsline {paragraph}{Tempi scala del disco}{27}
-\contentsline {subsection}{\numberline {4.1}Instabilit\IeC {\`a} termica}{28}
-\contentsline {subsection}{\numberline {4.2}Instabilit\IeC {\`a} viscosa}{30}
-\contentsline {paragraph}{Evoluzione temporale del disco}{30}
-\contentsline {paragraph}{Instabilit\IeC {\`a} viscosa}{31}
-\contentsline {paragraph}{Significato fisico della condizione}{32}
-\contentsline {subsection}{\numberline {4.3}Instabilit\IeC {\`a} e collasso del disco nelle regioni dominate da pressione di radiazione}{33}
+\contentsline {section}{\numberline {1}Introduzione}{5}{section.1}
+\contentsline {section}{\numberline {2}Accrescimento in sistemi binari}{6}{section.2}
+\contentsline {subsection}{\numberline {2.1}Deflusso attraverso i Lobi di Roche}{6}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Formazione di un disco}{8}{subsection.2.2}
+\contentsline {paragraph}{Orbita del gas}{9}{section*.2}
+\contentsline {subsection}{\numberline {2.3}Processi Dissipativi}{10}{subsection.2.3}
+\contentsline {paragraph}{Forma funzionale della viscosit\IeC {\`a}}{12}{section*.3}
+\contentsline {paragraph}{Momento torcente}{13}{section*.4}
+\contentsline {paragraph}{Energia dissipata}{14}{section*.5}
+\contentsline {section}{\numberline {3}Modello di Struttura del Disco Sottile}{15}{section.3}
+\contentsline {paragraph}{Conservazione della massa e Densit\IeC {\`a} superficiale}{15}{section*.6}
+\contentsline {subsection}{\numberline {3.1}Modello di disco stazionario}{18}{subsection.3.1}
+\contentsline {paragraph}{Condizioni sul tasso di accrescimento}{18}{section*.7}
+\contentsline {paragraph}{Dissipazione di energia}{20}{section*.8}
+\contentsline {paragraph}{Struttura verticale del disco}{20}{section*.9}
+\contentsline {paragraph}{Temperatura e Pressione}{21}{section*.10}
+\contentsline {subsection}{\numberline {3.2}La soluzione di Shakura e Sunyaev}{23}{subsection.3.2}
+\contentsline {paragraph}{Regioni dominate da pressione di radiazione}{25}{section*.11}
+\contentsline {subsection}{\numberline {3.3}Spettro di emissione}{28}{subsection.3.3}
+\contentsline {section}{\numberline {4}Evoluzione temporale dei dischi e instabilit\IeC {\`a}}{30}{section.4}
+\contentsline {paragraph}{Tempi scala del disco}{30}{section*.12}
+\contentsline {subsection}{\numberline {4.1}Instabilit\IeC {\`a} termica}{31}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Instabilit\IeC {\`a} viscosa}{33}{subsection.4.2}
+\contentsline {paragraph}{Evoluzione temporale del disco}{33}{section*.13}
+\contentsline {paragraph}{Instabilit\IeC {\`a} viscosa}{34}{section*.14}
+\contentsline {paragraph}{Significato fisico della condizione}{35}{section*.15}
+\contentsline {subsection}{\numberline {4.3}Instabilit\IeC {\`a} e collasso del disco nelle regioni dominate da pressione di radiazione}{36}{subsection.4.3}
