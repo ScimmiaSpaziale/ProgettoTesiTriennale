@@ -5,18 +5,18 @@
 \contentsline {subsection}{\numberline {2.1}Deflusso attraverso i Lobi di Roche}{4}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Formazione di un disco}{6}{subsection.2.2}
 \contentsline {paragraph}{Orbita del gas}{7}{section*.2}
-\contentsline {subsection}{\numberline {2.3}Processi Dissipativi}{9}{subsection.2.3}
-\contentsline {paragraph}{Trasporto di Momento}{9}{section*.3}
-\contentsline {paragraph}{Forma funzionale della viscosit\IeC {\`a}}{10}{section*.4}
+\contentsline {subsection}{\numberline {2.3}Processi Dissipativi}{8}{subsection.2.3}
+\contentsline {paragraph}{Trasporto di Momento}{8}{section*.3}
+\contentsline {paragraph}{Forma funzionale della viscosit\IeC {\`a}}{9}{section*.4}
 \contentsline {paragraph}{Momento torcente}{11}{section*.5}
-\contentsline {paragraph}{Energia dissipata}{12}{section*.6}
+\contentsline {paragraph}{Energia dissipata}{11}{section*.6}
 \contentsline {section}{\numberline {3}Modello di Struttura del Disco Sottile}{13}{section.3}
 \contentsline {paragraph}{Conservazione della massa e Densit\IeC {\`a} superficiale}{13}{section*.7}
 \contentsline {subsection}{\numberline {3.1}Modello di disco stazionario}{16}{subsection.3.1}
-\contentsline {paragraph}{Condizioni sul tasso di accrescimento}{16}{section*.8}
+\contentsline {paragraph}{Condizioni sul tasso di accrescimento}{17}{section*.8}
 \contentsline {paragraph}{Dissipazione di energia}{18}{section*.9}
-\contentsline {paragraph}{Struttura verticale del disco}{18}{section*.10}
-\contentsline {paragraph}{Temperatura e Pressione}{19}{section*.11}
+\contentsline {paragraph}{Struttura verticale del disco}{19}{section*.10}
+\contentsline {paragraph}{Temperatura e Pressione}{20}{section*.11}
 \contentsline {subsection}{\numberline {3.2}La soluzione di Shakura e Sunyaev}{21}{subsection.3.2}
 \contentsline {paragraph}{Regioni dominate da pressione di radiazione}{23}{section*.12}
 \contentsline {subsection}{\numberline {3.3}Spettro di emissione}{26}{subsection.3.3}

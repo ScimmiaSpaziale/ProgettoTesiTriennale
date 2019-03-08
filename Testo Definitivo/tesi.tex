@@ -8,6 +8,7 @@
 \usepackage{amsmath}
 \usepackage{listings}
 \usepackage[table,xcdraw]{xcolor}
+\usepackage{cancel}
 \usepackage[numbers]{natbib}
 \usepackage{amssymb}
 \usepackage{hyperref}
@@ -119,9 +120,9 @@ non permetta di costruire dischi di accrescimento stazionari, evidenziando come 
 \subsection{Deflusso attraverso i Lobi di Roche}
 	Edouard Roche ricava la forma della struttura che ora prende il suo nome studiando l'orbita dei satelliti planetari. Il modello descrive il moto di alcune particelle di test immerse in un potenziale gravitazionale generato da due corpi orbitanti intorno al centro di massa del sistema.
 	
-	La sua costruzione è essenziale e piuttosto elegante e si può ricavare partendo da poche semplici ipotesi, prima di calcolarne numericamente i parametri. La particella di test deve avere massa abbastanza piccola, al confronto di quella dei due corpi massicci, da non poterne influenzare in modo rilevante l'orbita; le orbite sono da considerarsi kepleriane e circolari\footnote{questo non è sempre vero in pratica, ma in generale le forze mareali tendono a rendere circolari orbite eccentriche in tempi scala molto minori di quelli caratteristici di un meccanismo di trasporto di materia} e le masse sono da considerarsi condensate nel loro centro.
+	La sua costruzione è essenziale e piuttosto elegante e si può ricavare partendo da poche semplici ipotesi, prima di calcolarne numericamente i parametri. La particella di test deve avere massa abbastanza piccola, al confronto di quella dei due corpi massicci, da non poterne influenzare in modo rilevante l'orbita; le orbite sono da considerarsi kepleriane e circolari e le masse sono da considerarsi condensate nel loro centro.
 	
-	Per descrivere qualsiasi flusso di gas\footnote{Il ragionamento resta valido se si lavora con un flusso di materia solida abbastanza piccola, rispetto al sistema, da poter essere trattata come un fluido} tra i due corpi del sistema di massa $M_1$ e $M_2$ ha senso scrivere l'\textit{equazione di Eulero in un sistema di riferimento co-rotante col sistema binario} \eqref{eq:EuleroRotante}, con velocità angolare $\omega$ rispetto al sistema inerziale. Questo comporta la presenza nell'equazione di termini che tengano conto delle forze centrifughe e di quelle di Coriolis, così che diventa:
+	Per descrivere qualsiasi flusso di gas tra i due corpi del sistema di massa $M_1$ e $M_2$ ha senso scrivere l'\textit{equazione di Eulero in un sistema di riferimento co-rotante col sistema binario} \eqref{eq:EuleroRotante}, con velocità angolare $\omega$ rispetto al sistema inerziale. Questo comporta la presenza nell'equazione di termini che tengano conto delle forze centrifughe e di quelle di Coriolis, così che diventa:
 	
 	\begin{equation}\label{eq:EuleroRotante}
 		\frac{\partial \bm{v}}{\partial t}+(\bm{v}\cdot\bm{\nabla})\bm{v}=-\bm{\nabla}\bm{\Phi}_R-2\bm{\omega}\times\bm{v}-\frac{1}{\rho}\bm{\nabla}\bm{P}
@@ -144,8 +145,8 @@ non permetta di costruire dischi di accrescimento stazionari, evidenziando come 
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.6\linewidth]{RocheEquipotential}
-		\caption{Una rappresentazione della sezione dei lobi e delle curve equipotenziali di $\Phi_R=cost$, numerati da 1 a 7 per $\Phi_R$ crescente, di un sistema con $q=0.25$. La terza superficie, evidenziata in nero, è la \textit{superficie critica}. I cinque punti $L_i$ rappresentano soluzioni particolari del problema dei tre corpi e sono detti \textit{punti lagrangiani di equilibrio}. $L_1$ è il \textit{punto lagrangiano interno}. I punti $L_4$ e $L_5$, detti \textit{punti degli asteroidi troiani}, sono di equilibrio stabile (massimi locali di $\Phi_R$ per le quali le forze di Coriolis stabilizzano le orbite delle particelle di test).}
+		\includegraphics[width=0.8\linewidth]{RocheEquipotential}
+		\caption{Una rappresentazione della sezione dei lobi e delle curve equipotenziali di $\Phi_R=cost$, numerati da 1 a 7 per $\Phi_R$ crescente, di un sistema con $q=0.25$. La terza superficie, evidenziata in nero, è la \textit{superficie critica}. Nei cinque punti $L_i$ il potenziale ha gradiente nullo. $L_1$, detto \textit{punto lagrangiano interno}, sarà utile alla trattazione del modello presentato di seguito.}
 		\label{fig:rocheequipotential}
 	\end{figure}
 
@@ -155,22 +156,6 @@ non permetta di costruire dischi di accrescimento stazionari, evidenziando come 
 	
 	Il punto separatore dei due lobi, detto \textit{punto lagrangiano interno}, è un punto di sella per $\Phi_R$ tale che se del materiale in uno dei due lobi si trovasse in sua prossimità (magari a seguito dell'espansione della stella da cui proviene, che si ritroverà ad occupare tutto il volume del suo lobo), passerebbe attraverso lui per raggiungere il lobo della compagna, piuttosto che attraversare la superficie critica del potenziale.
 
-	Si può dimostrare che, nell'ipotesi di accrescimento lento e totale ($\dot{M}_1$ e $\dot{M}_2$ piccoli e $\dot{M}_1+\dot{M}_2=0$), il trasferimento di materia tra i due lobi si svolge nello stesso tempo scala con cui il momento angolare viene perso.
-	
-	Sia $M_2$, che chiameremo stella secondaria, a cedere materia a $M_1$, il nostro buco nero o primaria; definito $J$ il momento angolare totale del sistema, abbiamo che:
-	
-	\begin{equation}
-		-\frac{\dot{M}_2}{M_2}=\frac{-\dot{J}/J}{4/3-M_2/M_1}
-	\end{equation}
-	
-	e analogamente si trova che
-
-	\begin{equation}
-		\frac{\dot{a}}{a}=\frac{2}{3}\frac{\dot{P}}{P}=\frac{2}{3}\frac{\dot{J}/J}{4/3-q}
-	\end{equation}
-	
-	Con $P$ il periodo orbitale del sistema binario.
-	
 \subsection{Formazione di un disco}
 	La materia della stella secondaria che attraversa la superficie critica attraverso il punto lagrangiano sarà dotata di un grande momento angolare dovuto alla rotazione della secondaria, tale per cui non possa essere accresciuta direttamente alla primaria senza che qualche meccanismo gliene faccia perdere la maggior parte.
 	
@@ -292,19 +277,23 @@ non permetta di costruire dischi di accrescimento stazionari, evidenziando come 
 	\paragraph{Energia dissipata}
 	Sempre con l'analogia dell'attrito viscoso fra gli strati del disco, si può ricavare una formula per la \textit{frazione di energia dissipata} per unità di area:
 	\begin{equation}
-		D(R)=\frac{G\Sigma'}{4\pi R}=\frac{1}{2}\nu\Sigma(R\Omega')^2
+		D(R)=\frac{G\Omega'}{4\pi R}=\frac{1}{2}\nu\Sigma(R\Omega')^2
 	\end{equation}
 	
 	Funzione sempre positiva o nulla, nel caso della rotazione rigida, legata ovviamente all'efficacia radiativa $\eta$ del nostro sistema.
 	
-	La formula di $D(R)$ si ricava considerando i due momenti torcenti che agiscono ai due lati di un anello di gas che si estende tra $R$ e $R+dR$, tali per cui, se vengono divisi per la velocità angolare
+	La formula di $D(R)$ si ricava considerando la differenza tra i due momenti torcenti che agiscono ai due lati di un anello di gas che si estende tra $R$ e $R+dR$, che moltiplicata per la velocità angolare $\Omega$ rappresenta la potenza dissipata e prodotta dal disco
 	\begin{equation}
-		\frac{1}{\Omega}(G(R+dR)-G(R))=\frac{1}{\Omega}\frac{\partial G}{\partial R}dR=\frac{1}{\Omega}\left[\frac{\partial}{\partial R}(G\Omega)-G\Omega'\right]dR
+		\Omega(G(R+dR)-G(R))=\Omega\frac{\partial G}{\partial R}dR=\left[\frac{\partial}{\partial R}(G\Omega)-G\Omega'\right]dR
 	\end{equation}
 	
-	Quest'equazione è formata da due termini, primo dei quali è $\frac{\partial}{\partial R}(G\Omega)dR$, che rappresenta il tasso di "spostamento" dell'energia nel gas per mezzo dei momenti torcenti e se integrato per tutti i raggi ha un valore che dipende solo dalle condizioni agli estremi del disco. Il secondo termine è $-G\Omega'dR$ e rappresenta un tasso di perdita locale di energia meccanica nel gas, che sarà quindi dissipata sotto forma di calore.
+	Quest'equazione è formata da due termini, primo dei quali è $\frac{\partial}{\partial R}(G\Omega)dR$, che rappresenta il tasso di ``spostamento" dell'energia nel gas per mezzo dei momenti torcenti e se integrato per tutti i raggi ha un valore che dipende solo dalle condizioni agli estremi del disco. Il secondo termine è $-G\Omega'dR$ e rappresenta un tasso di perdita locale di energia meccanica nel gas, che sarà quindi dissipata sotto forma di calore.
 	
-	La formula di $D(R)$ si ricava considerando che il calore sarà irradiato su entrambe le facce del disco, con superficie $4\pi RdR$.
+	La formula di $D(R)$ si ricava considerando che il calore sarà irradiato su entrambe le facce del disco e quindi su una superficie totale di $4\pi RdR$:
+	
+	\begin{equation}
+		D(R)=\frac{G\Omega'\cancel{dR}}{4\pi R\cancel{dR}}
+	\end{equation}
 	
 \newpage
 \section{Modello di Struttura del Disco Sottile}
@@ -321,27 +310,36 @@ non permetta di costruire dischi di accrescimento stazionari, evidenziando come 
 	\paragraph{Conservazione della massa e Densità superficiale}
 		Nell'ipotesi che il materiale del disco orbiti in modo circa kepleriano, si può descrivere il suo spostamento verso il corpo in accrescimento sommando alle velocità kepleriane una componente radiale $v_R$, negativa in un sistema di riferimento centrato su $M_1$ in coordinate cilindriche (con il centro di $M_1$ in $z=0$).
 
-	Considerando ancora un anello di gas da $R$ a $R+dR$, la cui massa vale $2\pi RdR\Sigma$ e che ha momento angolare totale $2\pi RdR\Sigma R^2\Omega$, il flusso netto tra anelli vicini è descritto dalla variazione di queste due quantità. 
+	Considerando ancora un anello di gas da $R$ a $R+\Delta R$, la cui massa vale $2\pi R\Delta R\Sigma$ e che ha momento angolare totale $2\pi R\Delta R\Sigma R^2\Omega$, il flusso netto tra anelli vicini è descritto dalla variazione di queste due quantità\footnote{Si stanno ignorando, per entrambe le quantità, termini di ordine superiore al primo in $\Delta R$}. 
 	
-	Per la massa
+	Posso descrivere la variazione della massa dell'anello nel tempo come la differenza tra la massa in uscita dal disco $2\pi v_R(R,t)R\Sigma(R,t)$ e quella in ingresso $2\pi v_R(R+\Delta R,t)(R+\Delta R)\Sigma(R+\Delta R,t)$. Posso inoltre riscrivere questa relazione come prodotto di costanti per un rapporto incrementale:
 	\begin{align*}
-		\frac{\partial}{\partial R}(2\pi RdR\Sigma)&=v_R(R,t)2\pi R\Sigma(R,t)-v_R(R+dR,t)2\pi(R+dR)\Sigma(R+dR,t)\\
-		&\cong-2\pi dR\frac{\partial}{\partial R}(R\Sigma v_R)
+		\frac{\partial}{\partial t}(2\pi R\Delta R\Sigma)&=2\pi\left[v_R(R,t)R\Sigma(R,t)-v_R(R+\Delta R,t)(R+\Delta R)\Sigma(R+\Delta R,t)\right]\\
+		&=-2\pi\Delta R\frac{v_R(R+\Delta R,t)(R+\Delta R)\Sigma(R+\Delta R,t)-v_R(R,t)R\Sigma(R,t)}{\Delta R}
 	\end{align*}
-	
-	Che nel limite $dR\rightarrow 0$ è l'\textit{equazione di conservazione della massa} nel disco
+	E poiché $R$ ed $\Delta R$ sono costanti, vale anche la seguente uguaglianza
+	\begin{equation}
+		\frac{\partial}{\partial t}(2\pi R\Delta R\Sigma)=2\pi R\Delta R \frac{\partial\Sigma}{\partial t}
+	\end{equation}
+    Nel limite $\Delta R\rightarrow 0$ il rapporto incrementale nel lato destro della prima equazione tende alla derivata $\frac{\partial}{\partial R}(R\Sigma v_R)$ e uguagliando i due risultati si trova l'\textit{equazione di conservazione della massa} nel disco
 	\begin{equation}
 		R\frac{\partial\Sigma}{\partial t}+\frac{\partial}{\partial R}(R\Sigma v_R)=0
 	\end{equation}
 	
-	Analogamente partendo da
-	\begin{equation*}
-		\frac{\partial}{\partial R}(2\pi RdR\Sigma R^2\Sigma)\cong-2\pi dR\frac{\partial}{\partial R}(R\Sigma v_R R^2\Sigma)+\frac{\partial G}{\partial R}dR	
-	\end{equation*}
-	
-	Trovo che nel limite $dR\rightarrow 0$ diventa \textit{l'equazione di conservazione del momento angolare nel disco}
+	Analogamente, possiamo osservare come la derivata temporale del momento angolare totale del disco si possa scrivere come la differenza tra il momento angolare delle particelle in uscita dall'anello $2\pi v_R(R,t)R\Sigma(R,t)R^2\Omega(R)$ e quello delle particelle in ingresso $2\pi v_R(R+\Delta R,t)(R+\Delta R)\Sigma(R+\Delta R,t)(R+\Delta R)^2\Omega(R+\Delta R)$, sommato al trasporto dovuto al momento torcente $\frac{\partial G}{\partial R}\Delta R$. Anche questa formula può essere ricondotta ad un rapporto incrementale:
+	\begin{align*}
+		\frac{\partial}{\partial t}(2\pi R\Delta R\Sigma R^2\Omega)=&2\pi v_R(R,t)R\Sigma(R,t)R^2\Omega(R)-\\&-2\pi v_R(R+\Delta R,t)(R+\Delta R)\Sigma(R+\Delta R,t)(R+\Delta R)^2\Omega(R+\Delta R)+\frac{\partial G}{\partial R}\Delta R\\
+		=&-2\pi\Delta R\frac{v_R(R+\Delta R,t)(R+\Delta R)\Sigma(R+\Delta R,t)(R+\Delta R)^2\Omega(R+\Delta R)}{\Delta R}-\\
+		&-2\pi\Delta R\frac{v_R(R,t)R\Sigma(R,t)R^2\Omega(R)}{\Delta R}+\frac{\partial G}{\partial R}\Delta R
+	\end{align*}
+
+	Quindi, poiché per $R$ e $\Delta R$ sono costanti nel tempo, posso scrivere
 	\begin{equation}
-		R\frac{\partial}{\partial t}(\Sigma R^2\Omega)+\frac{\partial}{\partial R}(R\Sigma v_R\cdot R^2\Omega)=\frac{1}{2\pi}\frac{\partial G}{\partial R}
+		\frac{\partial}{\partial t}(2\pi R\Delta R\Sigma R^2\Omega)=2\pi R\Delta R\frac{\partial}{\partial t}(\Sigma R^2\Omega)
+	\end{equation}
+	Questo comporta che nel limite $\Delta R\rightarrow 0$, con il rapporto incrementale della prima equazione che tende alla derivata $\frac{\partial}{\partial R}(R\Sigma v_R R^2\Omega)$, uguagliando i due risultati si ottiene \textit{l'equazione di conservazione del momento angolare nel disco}
+	\begin{equation}
+		R\frac{\partial}{\partial t}(\Sigma R^2\Omega)+\frac{\partial}{\partial R}(R\Sigma v_R R^2\Omega)=\frac{1}{2\pi}\frac{\partial G}{\partial R}
 	\end{equation}
 	
 	Usando la definizione di $G(R)$ e della velocità angolare in un'orbita kepleriana $\Omega_K$,  questa ci permette di definire un'equazione differenziale di $\Sigma$ ed $R$
@@ -424,9 +422,9 @@ non permetta di costruire dischi di accrescimento stazionari, evidenziando come 
 		\dot{M}=2\pi R\Sigma(-v_R)
 	\end{equation}
 	
-	E' importante notare come la costanza del flusso di materia ad ogni raggio sia una conseguenza diretta dall'assunzione sulla viscosità. Modelli moderni di accrescimento intorno a corpi compatti stanno considerando anche l'ipotesi che in certe sezioni del disco, $\dot{M}$ sia una funzione del raggio\footnote{Questo passaggio da uno studio globale (indipendente dal raggio) a locale (in funzione del raggio) delle grandezze è spesso messo in risalto nella letteratura come il primo vero superamento del modello \textit{naif} di Shakura e Sunyaev.}.
+	E' importante notare come la costanza del flusso di materia ad ogni raggio sia una conseguenza diretta dall'assunzione sulla viscosità. Modelli moderni di accrescimento intorno a corpi compatti stanno considerando anche l'ipotesi che in certe sezioni del disco, $\dot{M}$ sia una funzione del raggio\footnote{Questo passaggio da uno studio globale (indipendente dal raggio) a locale (in funzione del raggio) delle grandezze è spesso messo in risalto nella letteratura come il primo vero superamento del modello di Shakura e Sunyaev.}.
 	
-	La conservazione del momento angolare permette invece di derivare, una condizione sul tasso di accrescimento $\dot{M}$ rispetto alla distanza dal centro del disco.
+	La conservazione del momento angolare permette invece di derivare una condizione sul tasso di accrescimento $\dot{M}$ rispetto alla distanza dal centro del disco.
 	
 	Imponendo la stazionarietà si trova:
 	\begin{equation}
@@ -442,7 +440,7 @@ non permetta di costruire dischi di accrescimento stazionari, evidenziando come 
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.7\linewidth]{InnerRegionAngularVelocity}
+		\includegraphics[width=0.6\linewidth]{InnerRegionAngularVelocity}
 		\caption{Distribuzione delle velocità angolari $\Omega(R)$ intorno a una stella con raggio $R_\star$ e velocità di rotazione $\Omega_{\star}<\Omega_K(R)$}
 		\label{fig:InnerRegionAngularVelocity}
 	\end{figure}
@@ -467,7 +465,9 @@ non permetta di costruire dischi di accrescimento stazionari, evidenziando come 
 	Quello che si osserva il più delle volte è invece che $b\ll R_{\star}$\footnote{Le condizioni per cui questo valga sono descritte nella sezione 6.2 del \cite{FrankKingRaineAccretionPower}}.	
 	
 	\paragraph{Dissipazione di energia}
-	La stazionarietà del disco, nel caso di un corpo centrale che ruota lentamente permette anche di descrivere esplicitamente la dissipazione per unità d'area senza farla dipendere dalla viscosità. Ponendo $\Omega=\Omega_K$, si trova infatti:
+	La stazionarietà del disco, nel caso di un corpo centrale che ruota lentamente permette anche di descrivere esplicitamente la dissipazione per unità d'area senza farla dipendere dalla viscosità. 
+	
+	Ponendo $\Omega=\Omega_K$, si trova infatti:
 	\begin{align}
 		D(R)&=\frac{1}{2}\nu\Sigma(R\Omega')^2
 			\\&=\frac{3GM\dot{M}}{8\pi R^3}\left[1-\left(\frac{R_{\star}}{R}\right)^{1/2}\right]
@@ -562,7 +562,6 @@ Questa definizione del flusso corrisponde implicitamente alla condizione che il 
 		\frac{4\sigma}{3\tau}T^4_c=D(R)
 	\end{equation}
 	
-	\newpage
 	Quindi la struttura del disco sottile che è stato possibile derivare solo usando leggi fondamentali è descritta dalle seguenti espressioni:
 	
 	\begin{spacing}{1.3}
@@ -619,18 +618,12 @@ Con queste ipotesi si ottiene la soluzione del sistema, scritta in termini di $R
 	E' evidente come $\alpha$ non compaia nella soluzione con grandi potenze e quindi il suo ordine di grandezza risulti poco rilevante sui risultati delle equazioni di struttura, ma questo significa contemporaneamente che difficilmente potremo stimarne il valore con precisione solo attraverso osservazioni dirette di sistemi binari. 	
 	Se si può dire che si ottengono valori realistici dei parametri d'accrescimento dal modello per $\alpha\lesssim1$, sicuramente non ci sono elementi validi per capire come si evolva il sistema nel tempo al variare di $R$, $M$ e $\dot{M}$.
 	
-	Finché il modello resta valido (e in particolare finché l'approssimazione a legge di Kramer resta valida) il disco può estendersi a raggi piuttosto grandi, finanche a raggiungere l'ordine di grandezza del raggio del lobo di Roche del buco nero e il sistema delle soluzioni implica che anche per $R\sim10^{11}\,cm$, la massa del disco in ogni istante sia
+	Finché il modello resta valido (e in particolare finché l'approssimazione a legge di Kramer resta valida) il disco può estendersi a raggi piuttosto grandi, finanche a raggiungere l'ordine di grandezza del raggio del lobo di Roche del buco nero e il sistema delle soluzioni implica che anche per $R_e\sim10^{11}\,cm$, la massa del disco in ogni istante sia
 	\begin{equation}
 		M_d=2\pi\int^{R_{e}}_{R_\star}\Sigma RdR\lesssim (10^{-10}M_\odot)\alpha^{-4/5}\dot{M}^{7/10}_{16}
 	\end{equation}
 	e quindi, a meno di un parametro $\alpha$ molto piccolo ($\sim10^{-10}$) sarà sempre molto minore rispetto alla massa del corpo in accrescimento.
-	
-	Il modello di SeS introduce anche una condizione per poter ignorare l'effetto di auto-gravitazione del disco: affinché questo non si separi in parti auto-gravitanti\footnote{il disco collasserebbe in un tempo scala termico $\sim\Omega^{-1}$.}\footnote{Paczynski ha ipotizzato in un suo articolo del 1978 che le turbolenze nel disco instabile avrebbero ampiezza $\sim H$ e sarebbero così violente da scaldare il disco abbastanza da fermare l'instabilità stessa. In questo caso la condizione sulla viscosità diventerebbe che il termine di auto-gravitazione sia rilevante: $\rho\simeq M/R^3$.} deve valere la condizione sulla densità
-		\begin{equation}
-			\rho\ll M/R^3
-		\end{equation}
-	che è valida a meno che $\alpha$ sia molto piccolo ($\sim10^{-10}$).
-	
+		
 	Anche se non siamo ancora sicuri dei dettagli di come sia generata la turbolenza che permette il trasporto di momento angolare, nel caso sia vera l'ipotesi di Shakura e Sunyaev si dimostra che il momento torcente a cui è soggetta la materia nel disco dipende localmente (ad ogni raggio) dalla sola pressione totale a cui è soggetta.
 
 	\begin{equation}
@@ -835,7 +828,7 @@ ed è molto piccolo per le regioni dominate dall'opacità di Kramer ($R\gtrsim R
 	
 	Inoltre perché nelle regioni dominate da pressione gassosa vale
 	\begin{equation}
-		Q^+\sim D/H\sim \nu/H\sim\alpha c_s\sim\alpha T^{1/2}
+		Q^+\sim D/H\sim \nu/H\sim\alpha c_s\sim\alpha T_c^{1/2}
 	\end{equation}		
 	
 	Queste saranno termicamente stabili a meno che $\alpha$ non decresca più velocemente di $T_c^{-7}$.
@@ -844,9 +837,9 @@ ed è molto piccolo per le regioni dominate dall'opacità di Kramer ($R\gtrsim R
 	
 	D'altro canto, nelle regioni dominate da pressione di radiazione deve valere 
 	\begin{equation}
-		Q^+\sim D/H\sim \frac{P_r}{c_sR^{3/2}}\sim\frac{T_c^4}{T^{1/2}}\frac{1}{R^{3/2}}\sim\frac{\tau^{1/2}}{R^{3/2}}
+		Q^+\sim D/H\sim\frac{P_r}{c_s R^{3/2}}\sim\frac{T_c^4}{T_c^{1/2}}\frac{1}{R^{3/2}}\sim\frac{T_c^{7/2}}{R^{3/2}}
 	\end{equation}
-	E non si può garantire, come nel caso delle regioni dominate da pressione gassosa, la stabilità termica con una condizione su $\alpha$, poiché non ne conosciamo la dipendenza esatta da $R$.
+	E non si può garantire, come nel caso delle regioni dominate da pressione gassosa, la stabilità termica con una condizione su $\alpha$, poiché non ne conosciamo la dipendenza esatta da $R$ e $T$.
 
 \subsection{Instabilità viscosa}
 	I cambiamenti nella struttura del disco che avvengono nel tempo scala viscoso includono le instabilità viscose e l'evoluzione del disco a seguito di un cambiamento delle condizioni ambientali.
@@ -969,7 +962,7 @@ ed è molto piccolo per le regioni dominate dall'opacità di Kramer ($R\gtrsim R
 		\label{fig:RegioniDisco}
 	\end{figure}
 	
-	Gli $\alpha$ dischi sono instabili ad alti tassi di accrescimento sub-critici a raggi brevi per via del drastico aumento di temperatura nella regione in cui la pressione passa dall'essere dominata dalla componente gassosa a quella in cui è dominata dalla componente radiativa. In queste regioni un piccolo aumento della temperatura comporta un aumento importante della pressione e quindi del riscaldamento, poiché $G\propto\alpha P$. Questo comporta un aumento della temperatura che non è bilanciato da nessuna diminuzione dell'opacità e che quindi provoca un irradiamento di calore enorme.
+	Gli $\alpha$ dischi sono termicamente instabili ad alti tassi di accrescimento a raggi brevi per via del drastico aumento di temperatura nella regione in cui la pressione passa dall'essere dominata dalla componente gassosa a quella in cui è dominata dalla componente radiativa. In queste regioni un piccolo aumento della temperatura comporta un aumento importante della pressione e quindi del riscaldamento, poiché $G\propto\alpha P$. Questo comporta un aumento della temperatura che non è bilanciato da nessuna diminuzione dell'opacità e quindi un aumento dell'energia interna nel disco.
 	 
 	Questa instabilità del modello è un campanello d'allarme sulla validità dell'assunzione $\alpha$, poiché l'analisi della struttura del disco a regimi sub-critici e un grande numero di osservazioni ci dicono che più della metà dell'emissione dovuta all'accrescimento avviene proprio nelle regioni più interne al disco.
 	
@@ -989,12 +982,12 @@ ed è molto piccolo per le regioni dominate dall'opacità di Kramer ($R\gtrsim R
 	
 	Finora non sono trovate prove che dimostrino l'esistenza dell'instabilità o l'esistenza di cicli limite nelle regioni dominate da pressione di radiazione prevista dal modello di SeS. Dischi descritti con la prescrizione di $\alpha$ dovrebbero diventare instabili a $L\lesssim L_{edd}$, producendo cicli limite\footnote{L'unica quasi eccezione è la binaria super-critica GRS 1915+105, che mostra qualcosa di simile a un ciclo limite}, ma si sono osservati diversi oggetti stazionari con tasso di accrescimento superiore ai presunti massimi consentiti.
 	
-	E' quindi evidente da anni come il modello "naif" di Shakura e Sunyaev, sebbene sia costruito in maniera elegante e su ipotesi molto semplici, non dia una descrizione apprezzabile dei fenomeni di accrescimento sui corpi compatti, oltre a non avere soluzioni con potere predittivo, data la natura incerta della \textit{viscosità}.
+	E' quindi evidente da anni come il modello di Shakura e Sunyaev, sebbene sia costruito in maniera elegante e su ipotesi molto semplici, non dia una descrizione apprezzabile dei fenomeni di accrescimento sui corpi compatti, oltre a non avere soluzioni con potere predittivo, data la natura incerta della \textit{viscosità}.
 	
-	Quello che sembra più logico fare, per superare questo tipo di instabilità è cambiare la condizione sulla viscosità, di per sé completamente di comodo, ma non è ancora stata trovata una soluzione che che fosse coerente con tutte le osservazioni e non si potesse giustificare fisicamente: negli anni si sono presi in considerazione nei lavori teorici sempre più fenomeni legati alla natura dei corpi compatti (la loro rotazione e i loro campi magnetici sopra tutti) oltre che a studi dell'accrescimento tramite venti stellari o altri metodi, molto più complessi da modellizzare del travalicamento dei lobi di Roche.
+	Quello che sembra più logico fare, per superare questo tipo di instabilità è cambiare la condizione sulla viscosità, di per sé completamente di comodo, ma non è ancora stata trovata una soluzione che che fosse coerente con tutte le osservazioni e non si potesse giustificare fisicamente: negli anni si sono presi in considerazione nei lavori teorici sempre più fenomeni legati alla natura dei corpi compatti (la loro rotazione e i loro campi magnetici sopra tutti).
 	
 	Comunque, grazie al lavoro dei modellisti, negli anni si sono trovate prescrizioni diverse a quella di Shakura e Sunyaev sul momento torcente, anche analiticamente stabili ovunque\footnote{Stella e Rosner 1984}, e grazie all'aumento notevole dagli anni '80 delle osservazioni in banda X, con telescopi come l'RXTE o il \textit{Ginga}, e in banda radio, sono aumentati drasticamente i sistemi binari con un membro compatto che siamo stati in grado di vedere per apprezzarne il comportamento e le caratteristiche di accrescimento. 
-	Questi fattori hanno portato dai primi anni 2000, complice anche l'aumento progressivo della potenza di calcolo dei computer, ad un piccolo "rinascimento" dello studio dei meccanismi di accrescimento, che sembra star suscitando interesse crescente e un portando alla pubblicazione di un discreto numero di articoli a riguardo e ci permette di essere cautamente ottimisti sulla possibilità, nei prossimi anni, di avere una comprensione migliore della natura e dei processi che regolano l'accrescimento intorno ai corpi compatti, oltre il modello di Shakura e Sunyaev.
+	Questi fattori hanno portato dai primi anni 2000, complice anche l'aumento progressivo della potenza di calcolo dei computer, ad un piccolo "rinascimento" dello studio dei meccanismi di accrescimento.
 	
 \newpage
 \renewcommand{\bibpreamble}{Per regioni di coerenza interna al testo e di visione ordinata degli argomenti, ho cercato di affrontarli seguendo il più delle volte la traccia e le argomentazioni come sono presentatate sul testo di \textit{Frank, King e Raine} \cite{FrankKingRaineAccretionPower}, manuale di riferimento per quanto riguarda le teorie dell'accrescimento.
